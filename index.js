@@ -60,19 +60,20 @@ restService.listen((process.env.PORT || 5000), function () {
 });
 
 
-
+var duration,location;
 function generateWorkout(duration, location) {
-    let dur = duration <= 60? duration : 60;
+    this.duration = duration <= 60? duration : 60;
+    this.location = location;
 
-    return workouts.filter(isInLocation(element,location)).filter(isInDuration(element,dur)).map(printWorkout).join("\n");
+    return workouts.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
 }
 
-function isInLocation(workout,location){
-    return workout.locations.includes(location);
+function isInLocation(workout){
+    return workout.locations.includes(this.location);
 }
 
-function isInDuration(workout,duration){
-    return duration - workout.duration >= 0 && duration - workout.duration < 5;
+function isInDuration(workout){
+    return this.duration - workout.duration >= 0 && this.duration - workout.duration < 5;
 }
 
 function printWorkout(workout){
