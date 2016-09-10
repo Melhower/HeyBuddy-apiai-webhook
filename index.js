@@ -26,7 +26,7 @@ restService.post('/hook', function (req, res) {
                 }
 
                 if (requestBody.result.action === "generateWorkout") {
-                    speech += generateWorkout(requestBody.result.parameters.duration, requestBody.result.parameters.location);
+                    speech += generateWorkout(requestBody.result.parameters.duration.amount, requestBody.result.parameters.location);
                 }
 
                 else if (requestBody.result.action) 
@@ -60,7 +60,50 @@ restService.listen((process.env.PORT || 5000), function () {
 });
 
 
-function generateWorkout(duration, location) {
 
-    return duration +", " + location + ": " + "\n 7 mins warmup \n 13 mins AMRAP\n 15 Bench Presses \n 12 Air Squats \n 9 Military Presses \n 7 Sit-Ups";
+function generateWorkout(duration, location) {
+    let dur = duration <= 60? duration : 60;
+
+    return workouts.filter(isInLocation(element,location)).filter(isInDuration(element,dur)).map(printWorkout).join("\n");
 }
+
+function isInLocation(workout,location){
+    return workout.locations.includes(location);
+}
+
+function isInDuration(workout,duration){
+    return duration - workout.duration >= 0 && duration - workout.duration < 5;
+}
+
+function printWorkout(workout){
+    return "\n " + workout.warmup.time + " mins: "+ workout.warmup.exercises.join("\n") + 
+    "\n" + workout.workout.time + " mins: "+ workout.workout.exercises.join("\n");
+}
+
+const workouts = [
+{
+    "locations": ["home","work"],
+    "duration": 15,
+    "warmup":{
+        "time": 5,
+        "exercises": ["warmup"]
+    },
+    "workout": {
+        "time": 10,
+        "exercises": [ 
+        {
+            "name": "15 Mountain Climbers (with each leg)",
+            "link": ""
+        },
+        {
+            "name": "12 Air Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Push-Ups",
+            "link": ""
+        },
+        ]
+    }
+},
+];
