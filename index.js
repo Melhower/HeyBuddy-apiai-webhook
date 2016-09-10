@@ -26,12 +26,7 @@ restService.post('/hook', function (req, res) {
                 }
 
                 if (requestBody.result.action === "generateWorkout") {
-                    speech += "7 mins warmup
-                    13 mins AMRAP
-                    15 Bench Presses
-                    12 Air Squats
-                    9 Military Presses
-                    7 Sit-Ups";
+                    speech += "7 mins warmup \n 13 mins AMRAP\n 15 Bench Presses \n 12 Air Squats \n 9 Military Presses \n 7 Sit-Ups";
                 }
 
              //   else if (requestBody.result.action) 
