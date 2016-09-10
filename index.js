@@ -1,5 +1,7 @@
 'use strict';
 
+import {generateWorkout} from './src/Workout.js';
+
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -26,11 +28,11 @@ restService.post('/hook', function (req, res) {
                 }
 
                 if (requestBody.result.action === "generateWorkout") {
-                    speech += "7 mins warmup \n 13 mins AMRAP\n 15 Bench Presses \n 12 Air Squats \n 9 Military Presses \n 7 Sit-Ups";
+                    speech += generateWorkout(requestBody.result.parameters.duration, requestBody.result.parameters.location);
                 }
 
-             //   else if (requestBody.result.action) 
-             //       speech += 'action: ' + requestBody.result.action;
+                else if (requestBody.result.action) 
+                    speech += 'action: ' + requestBody.result.action;
                 
 
             }
