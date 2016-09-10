@@ -25,7 +25,7 @@ restService.post('/hook', function (req, res) {
                     speech += ' ';
                 }
 
-                if (requestBody.result.action == "generateWorkout") {
+                if (requestBody.result.action === "generateWorkout") {
                     speech += "7 mins warmup
                     13 mins AMRAP
                     15 Bench Presses
@@ -34,8 +34,8 @@ restService.post('/hook', function (req, res) {
                     7 Sit-Ups";
                 }
 
-                else if (requestBody.result.action) 
-                    speech += 'action: ' + requestBody.result.action;
+             //   else if (requestBody.result.action) 
+             //       speech += 'action: ' + requestBody.result.action;
                 
 
             }
