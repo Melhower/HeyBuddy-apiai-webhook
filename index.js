@@ -64,7 +64,9 @@ restService.listen((process.env.PORT || 5000), function () {
 
 function parsDuration(duration){
     console.log("duration: "+JSON.stringify(duration));
-    return duration && duration.amount <= 60? duration.amount : 60;
+    if (duration == "") { return 30}
+        else
+    return duration.amount <= 60? duration.amount : 60;
 }
 function parsLocation(location){
     console.log("location: "+JSON.stringify(location));
@@ -94,7 +96,8 @@ function isInDuration(workout){
 
 
 function printWorkout(workout){
-    return printWorkoutCategory(workout.warmup)
+    return "details: " + printDetails(workout.locations)
+    + printWorkoutCategory(workout.warmup)
     + printWorkoutCategory(workout.workout) 
     + printWorkoutCategory(workout.cooldown);
 }
