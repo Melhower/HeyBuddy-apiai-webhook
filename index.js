@@ -84,7 +84,7 @@ function isInDuration(workout){
 
 function printWorkout(workout){
     return "\n " + workout.warmup.time + " mins: \n"+ workout.warmup.exercises.join("\n") + 
-    "\n" + workout.workout.time + " mins: \n"+ workout.workout.exercises.map(printExercises).join("\n");
+    "\n" + workout.workout.time + " mins: \n"+ workout.workout.exercises.map(printExercise).join("\n");
 }
 
 function printExercise (exercise){
