@@ -60,20 +60,23 @@ restService.listen((process.env.PORT || 5000), function () {
 });
 
 
-var duration = 0,location = "";
+var thisduration = 0,thislocation = "";
 function generateWorkout(duration, location) {
-    this.duration = duration && duration.amount <= 60? duration.amount : 60;
-    this.location = location;
+    console.log("duration: "+duration.toString);
+    console.log("location: "+location.toString);
+
+    thisduration = duration && duration.amount <= 60? duration.amount : 60;
+    thislocation = location;
 
     return workouts.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
 }
 
 function isInLocation(workout){
-    return workout.locations.includes(this.location);
+    return workout.locations.includes(thislocation);
 }
 
 function isInDuration(workout){
-    return this.duration - workout.duration >= 0 && this.duration - workout.duration < 5;
+    return thisduration - workout.duration >= 0 && thisduration - workout.duration < 5;
 }
 
 function printWorkout(workout){
