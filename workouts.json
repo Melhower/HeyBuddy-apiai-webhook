@@ -3,7 +3,7 @@
     "locations": "home",
     "duration": 5,
     "warmup":{
-        "time": 2 mins Warmup,
+        "time": "2 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Jumping Jack",
@@ -16,7 +16,7 @@
         ]
     },
     "workout": {
-        "time": 3 mins AMRAP,
+        "time": "3 mins AMRAP",
         "exercises": [ 
         {
             "name": "5 Squats",
@@ -38,7 +38,7 @@
     "locations": "home",
     "duration": 10,
     "warmup":{
-        "time": 3 mins warmup,
+        "time": "3 mins warmup",
         "exercises": [ 
         {
             "name": "1 minute Jumping Jack",
@@ -51,7 +51,7 @@
         ]
     },
     "workout": {
-        "time": 7 mins AMRAP,
+        "time": "7 mins AMRAP",
         "exercises": [ 
         {
             "name": "7 Squats",
@@ -73,7 +73,7 @@
     "locations": "home",
     "duration": 15,
     "warmup":{
-        "time": 5 mins Warmup,
+        "time": "5 mins Warmup",
         "exercises": [ 
         {
             "name": "2 minutes Jumping Jack",
@@ -86,7 +86,7 @@
         ]
     },
     "workout": {
-        "time": 10 mins AMRAP,
+        "time": "10 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -112,7 +112,7 @@
     "locations": "home",
     "duration": 20,
     "warmup": {
-        "time": 7 mins Warmup,
+        "time": "7 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -125,7 +125,7 @@
         ]
     },
     "workout": {
-        "time": 13 mins AMRAP,
+        "time": "13 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -151,7 +151,7 @@
     "locations": "home",
     "duration": 25,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -168,7 +168,7 @@
         ]
     },
     "workout": {
-        "time": 15 mins AMRAP,
+        "time": "15 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -198,7 +198,7 @@
     "locations": "home",
     "duration": 30,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -215,7 +215,7 @@
         ]
     },
     "workout": {
-        "time": 20 mins AMRAP,
+        "time": "20 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -249,7 +249,7 @@
     "locations": "home",
     "duration": 35,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -266,7 +266,7 @@
         ]
     },
     "workout": {
-        "time": 25 mins AMRAP,
+        "time": "25 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -304,7 +304,7 @@
     "locations": "home",
     "duration": 40,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -321,7 +321,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -359,7 +359,7 @@
     "locations": "home",
     "duration": 45,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -376,7 +376,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -409,7 +409,7 @@
         ]
     },
     "cooldown": {
-        "time": 5 mins Cool Down,
+        "time": "5 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Jumping Jack",
@@ -427,7 +427,7 @@
     "locations": "home",
     "duration": 50,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -444,7 +444,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -477,7 +477,7 @@
         ]
     },
     "cooldown": {
-        "time": 10 mins Cool Down,
+        "time": "10 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Jumping Jack",
@@ -499,7 +499,7 @@
     "locations": "home",
     "duration": 55,
     "warmup":{
-        "time": 13 mins Warmup,
+        "time": "13 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Jumping Jack",
@@ -524,7 +524,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -556,7 +556,7 @@
         },
         ],
         "cooldown": {
-            "time": 12 mins Cool Down,
+            "time": "12 mins Cool Down",
             "exercises": [ 
             {
                 "name": "1 minute Jumping Jack",
@@ -586,7 +586,7 @@
     "locations": "home",
     "duration": 60,
     "warmup":{
-        "time": 15 mins Warmup,
+        "time": "15 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Jumping Jack",
@@ -611,7 +611,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -643,7 +643,7 @@
         },]
     },
     "cooldown": {
-        "time": 15 mins Cool Down,
+        "time": "15 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Jumping Jack",
@@ -674,7 +674,7 @@
     "locations": "outdoor",
     "duration": 5,
     "warmup":{
-        "time": 2 mins Warmup,
+        "time": "2 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Running",
@@ -687,7 +687,7 @@
         ]
     },
     "workout": {
-        "time": 3 mins AMRAP,
+        "time": "3 mins AMRAP",
         "exercises": [ 
         {
             "name": "5 Squats",
@@ -709,7 +709,7 @@
     "locations": "outdoor",
     "duration": 10,
     "warmup":{
-        "time": 3 mins Warmup,
+        "time": "3 mins Warmup",
         "exercises": [ 
         {
             "name": "1 minute Running",
@@ -722,7 +722,7 @@
         ]
     },
     "workout": {
-        "time": 7 mins AMRAP,
+        "time": "7 mins AMRAP",
         "exercises": [ 
         {
             "name": "7 Squats",
@@ -744,7 +744,7 @@
     "locations": "outdoor",
     "duration": 15,
     "warmup":{
-        "time": 5 mins Warmup,
+        "time": "5 mins Warmup",
         "exercises": [ 
         {
             "name": "2 minutes Running",
@@ -757,7 +757,7 @@
         ]
     },
     "workout": {
-        "time": 10 mins AMRAP,
+        "time": "10 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -783,7 +783,7 @@
     "locations": "outdoor",
     "duration": 20,
     "warmup": {
-        "time": 7 mins Warmup,
+        "time": "7 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -796,7 +796,7 @@
         ]
     },
     "workout": {
-        "time": 13 mins AMRAP,
+        "time": "13 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -822,7 +822,7 @@
     "locations": "outdoor",
     "duration": 25,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -839,7 +839,7 @@
         ]
     },
     "workout": {
-        "time": 15 mins AMRAP,
+        "time": "15 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -869,7 +869,7 @@
     "locations": "outdoor",
     "duration": 30,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -886,7 +886,7 @@
         ]
     },
     "workout": {
-        "time": 20 mins AMRAP,
+        "time": "20 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -920,7 +920,7 @@
     "locations": "outdoor",
     "duration": 35,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -937,7 +937,7 @@
         ]
     },
     "workout": {
-        "time": 25 mins AMRAP,
+        "time": "25 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -975,7 +975,7 @@
     "locations": "outdoor",
     "duration": 40,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -992,7 +992,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1030,7 +1030,7 @@
     "locations": "outdoor",
     "duration": 45,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -1047,7 +1047,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1080,7 +1080,7 @@
         ]
     },
     "cooldown": {
-        "time": 5 mins Cool Down,
+        "time": "5 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Running",
@@ -1098,7 +1098,7 @@
     "locations": "outdoor",
     "duration": 50,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -1115,7 +1115,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1147,7 +1147,7 @@
         },]
     },
     "cooldown": {
-        "time": 10 mins Cool Down,
+        "time": "10 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Running",
@@ -1169,7 +1169,7 @@
     "locations": "outdoor",
     "duration": 55,
     "warmup":{
-        "time": 13 mins Warmup,
+        "time": "13 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Running",
@@ -1194,7 +1194,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1226,7 +1226,7 @@
         },]
     },
     "cooldown": {
-        "time": 12 mins Cool Down,
+        "time": "12 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Running",
@@ -1256,7 +1256,7 @@
     "locations": "outdoor",
     "duration": 60,
     "warmup":{
-        "time": 15 mins Warmup,
+        "time": "15 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Running",
@@ -1280,7 +1280,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1312,7 +1312,7 @@
         },]
     },
     "cooldown": {
-        "time": 15 mins Cool Down,
+        "time": "15 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Running",
@@ -1342,7 +1342,7 @@
     "locations": "gym",
     "duration": 5,
     "warmup":{
-        "time": 2 mins Warmup,
+        "time": "2 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Rower",
@@ -1355,7 +1355,7 @@
         ]
     },
     "workout": {
-        "time": 3 mins AMRAP,
+        "time": "3 mins AMRAP",
         "exercises": [ 
         {
             "name": "5 Bench Presses",
@@ -1377,7 +1377,7 @@
     "locations": "gym",
     "duration": 10,
     "warmup":{
-        "time": 3 mins Warmup,
+        "time": "3 mins Warmup",
         "exercises": [ 
         {
             "name": "1 minute Rower",
@@ -1390,7 +1390,7 @@
         ]
     },
     "workout": {
-        "time": 7 mins AMRAP,
+        "time": "7 mins AMRAP",
         "exercises": [ 
         {
             "name": "7 Bench Presses",
@@ -1412,7 +1412,7 @@
     "locations": "gym",
     "duration": 15,
     "warmup":{
-        "time": 5 mins Warmup,
+        "time": "5 mins Warmup",
         "exercises": [ 
         {
             "name": "2 minutes Rower",
@@ -1425,7 +1425,7 @@
         ]
     },
     "workout": {
-        "time": 10 mins AMRAP,
+        "time": "10 mins AMRAP",
         "exercises": [ 
         {
             "name": "10 Bench Presses",
@@ -1451,7 +1451,7 @@
     "locations": "gym",
     "duration": 20,
     "warmup": {
-        "time": 7 mins Warmup,
+        "time": "7 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1464,7 +1464,7 @@
         ]
     },
     "workout": {
-        "time": 13 mins AMRAP,
+        "time": "13 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Bench Presses",
@@ -1490,7 +1490,7 @@
     "locations": "gym",
     "duration": 25,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1507,7 +1507,7 @@
         ]
     },
     "workout": {
-        "time": 15 mins AMRAP,
+        "time": "15 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Bench Presses",
@@ -1537,7 +1537,7 @@
     "locations": "gym",
     "duration": 30,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1554,7 +1554,7 @@
         ]
     },
     "workout": {
-        "time": 20 mins AMRAP,
+        "time": "20 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1588,7 +1588,7 @@
     "locations": "gym",
     "duration": 35,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1605,7 +1605,7 @@
         ]
     },
     "workout": {
-        "time": 25 mins AMRAP,
+        "time": "25 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1641,7 +1641,7 @@
 
 {
     "locations": "gym",
-    "duration": 40 mins Warmup,
+    "duration": "40 mins Warmup",
     "warmup":{
         "time": 10,
         "exercises": [
@@ -1660,7 +1660,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1698,7 +1698,7 @@
     "locations": "gym",
     "duration": 45,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1715,7 +1715,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1748,7 +1748,7 @@
         ]
     },
     "cooldown": {
-        "time": 5 mins Cool Down,
+        "time": "5 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Rower",
@@ -1766,7 +1766,7 @@
     "locations": "gym",
     "duration": 50,
     "warmup":{
-        "time": 10 mins Warmup,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1783,7 +1783,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1816,7 +1816,7 @@
         ]
     },
     "cooldown": {
-        "time": 10 mins Cool Down,
+        "time": "10 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Rower",
@@ -1838,7 +1838,7 @@
     "locations": "gym",
     "duration": 55,
     "warmup":{
-        "time": 13 mins Warmup,
+        "time": "13 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Rower",
@@ -1863,7 +1863,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1896,7 +1896,7 @@
         ]
     },
     "cooldown": {
-        "time": 12 mins Cool Down,
+        "time": "12 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Rower",
@@ -1926,7 +1926,7 @@
     "locations": "gym",
     "duration": 60,
     "warmup":{
-        "time": 15 mins Warmup,
+        "time": "15 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Rower",
@@ -1951,7 +1951,7 @@
         ]
     },
     "workout": {
-        "time": 30 mins AMRAP,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1984,7 +1984,7 @@
         ]
     },
     "cooldown": {
-        "time": 15 mins Cool Down,
+        "time": "15 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Rower",
