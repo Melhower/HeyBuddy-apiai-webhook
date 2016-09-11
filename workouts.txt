@@ -2,24 +2,33 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 5,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
+        "time": 2,
+        "exercises": [
+        {
+            "name": “1 minute Jumping Jack”,
+            "link": ""
+        },
+        {
+            "name": “1 minute Stretching“,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731538420440621/?type=3&theater"
+        },
+        ]
     },
     "workout": {
-        "time": 10,
+        "time": 3,
         "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “5 Squats”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “5 Push-Ups”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “5 Sit-Ups”,
             "link": ""
         },
         ]
@@ -28,24 +37,33 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 10,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
+        "time": 3,
+        "exercises": [ 
+        {
+            "name": “1 minute Jumping Jack”,
+            "link": ""
+        },
+        {
+            "name": “2 minutes Stretching“,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731256703802126/?type=3&theater"
+        },
+        ]
     },
     "workout": {
-        "time": 10,
+        "time": 7,
         "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “7 Squats”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “7 Push-Ups“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “7 Sit-Ups“,
             "link": ""
         },
         ]
@@ -57,13 +75,22 @@ const workouts = [
     "duration": 15,
     "warmup":{
         "time": 5,
-        "exercises": ["warmup"]
+        "exercises": [ 
+        {
+            "name": “2 minutes Jumping Jack”,
+            "link": ""
+        },
+        {
+            "name": “3 minutes Stretching“,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731544373773359/?type=3&theater"
+        },
+        ]
     },
     "workout": {
         "time": 10,
         "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": "15 Mountain Climbers (per leg)",
             "link": ""
         },
         {
@@ -72,6 +99,10 @@ const workouts = [
         },
         {
             "name": "9 Push-Ups",
+            "link": ""
+        },
+        {
+            "name": “7 Sit-Ups“,
             "link": ""
         },
         ]
@@ -80,16 +111,25 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
+    "duration": 20,
+    "warmup": {
+        "time": 7,
+        "exercises": [
+        {
+            "name": “2 minutes Jumping Jack”,
+            "link": ""
+        },
+        {
+            "name": “5 minutes Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+        },
+        ]
     },
     "workout": {
-        "time": 10,
+        "time": 13,
         "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": "15 Mountain Climbers (per leg)",
             "link": ""
         },
         {
@@ -98,6 +138,10 @@ const workouts = [
         },
         {
             "name": "9 Push-Ups",
+            "link": ""
+        },
+        {
+            "name": “7 Sit-Ups“,
             "link": ""
         },
         ]
@@ -106,42 +150,29 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 25,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
         "time": 10,
-        "exercises": [ 
+        "exercises": [
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “15 Burpees”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
     },
     "workout": {
-        "time": 10,
+        "time": 15,
         "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": "15 Mountain Climbers (per leg)",
             "link": ""
         },
         {
@@ -150,6 +181,14 @@ const workouts = [
         },
         {
             "name": "9 Push-Ups",
+            "link": ""
+        },
+        {
+            "name": “7 Sit-Ups“,
+            "link": ""
+        },
+        {
+            "name": “5 Squat Jumps“,
             "link": ""
         },
         ]
@@ -158,42 +197,33 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 30,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
         "time": 10,
-        "exercises": [ 
+        "exercises": [
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “15 Burpees”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
     },
     "workout": {
-        "time": 10,
+        "time": 20,
         "exercises": [ 
+        {
+            "name": “20 Mountain Climbers (per leg)",
+            "link": ""
+        },
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “15 Dips“,
             "link": ""
         },
         {
@@ -202,53 +232,52 @@ const workouts = [
         },
         {
             "name": "9 Push-Ups",
+            "link": ""
+        },
+        {
+            "name": “7 Sit-Ups“,
             "link": ""
         },
+        {
+            "name": “5 Squat Jumps“,
+            "link": ""
+        },
         ]
     }
 },
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 35,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
         "time": 10,
-        "exercises": [ 
+        "exercises": [
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “15 Burpees”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
     },
     "workout": {
-        "time": 10,
+        "time": 25,
         "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
+            "name": “15 Dips“,
+            "link": ""
+        },
+        {
             "name": "12 Air Squats",
             "link": ""
         },
@@ -256,30 +285,16 @@ const workouts = [
             "name": "9 Push-Ups",
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “7 Sit-Ups“,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “5 Squat Jumps“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “3 Burpees“,
             "link": ""
         },
         ]
@@ -288,42 +303,33 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 40,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
         "time": 10,
-        "exercises": [ 
+        "exercises": [
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “15 Burpees”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
     },
     "workout": {
-        "time": 10,
+        "time": 30,
         "exercises": [ 
+        {
+            "name": “20 Mountain Climbers (per leg)",
+            "link": ""
+        },
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “15 Dips“,
             "link": ""
         },
         {
@@ -334,30 +340,16 @@ const workouts = [
             "name": "9 Push-Ups",
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “7 Sit-Ups“,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “5 Squat Jumps“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “3 Burpees“,
             "link": ""
         },
         ]
@@ -366,42 +358,33 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 45,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
         "time": 10,
-        "exercises": [ 
+        "exercises": [
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “15 Burpees”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
     },
     "workout": {
-        "time": 10,
+        "time": 30,
         "exercises": [ 
+        {
+            "name": “20 Mountain Climbers (per leg)",
+            "link": ""
+        },
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “15 Dips“,
             "link": ""
         },
         {
@@ -412,56 +395,29 @@ const workouts = [
             "name": "9 Push-Ups",
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “7 Sit-Ups“,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “5 Squat Jumps“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “3 Burpees“,
             "link": ""
         },
         ]
     }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
+    “cooldown”: {
         "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
         "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
         {
-            "name": "12 Air Squats",
+            "name": “1 minute 30 seconds Jumping Jack“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “1 minute 30 seconds Walking in Place“,
             "link": ""
         },
         ]
@@ -470,42 +426,33 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 50,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
         "time": 10,
-        "exercises": [ 
+        "exercises": [
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “15 Burpees”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
     },
     "workout": {
-        "time": 10,
+        "time": 30,
         "exercises": [ 
+        {
+            "name": “20 Mountain Climbers (per leg)",
+            "link": ""
+        },
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “15 Dips“,
             "link": ""
         },
         {
@@ -516,31 +463,33 @@ const workouts = [
             "name": "9 Push-Ups",
             "link": ""
         },
-        ]
+        {
+            "name": “7 Sit-Ups“,
+            "link": ""
+        },
+        {
+            "name": “5 Squat Jumps“,
+            "link": ""
+        },
+        {
+            "name": “3 Burpees“,
+            "link": ""
+        },
     }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
+    “cooldown”: {
         "time": 10,
         "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “1 minute 30 seconds Jumping Jack“,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “1 minute 30 seconds Walking in Place“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Cool Down Stretch“,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
     }
@@ -548,1160 +497,40 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 55,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
-        {
-            "name": "9 Push-Ups",
-            "link": ""
-        },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
+        "time": 13,
+        "exercises": [
         {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
+            "name": “1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “15 Burpees”,
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “15 Burpees”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
     },
     "workout": {
-        "time": 10,
+        "time": 30,
         "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
         {
-            "name": "9 Push-Ups",
+            "name": “20 Mountain Climbers (per leg)",
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “15 Dips“,
             "link": ""
         },
         {
@@ -1712,83 +541,41 @@ const workouts = [
             "name": "9 Push-Ups",
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “7 Sit-Ups“,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “5 Squat Jumps“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “3 Burpees“,
             "link": ""
         },
-        ]
     }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
+    “cooldown”: {
+        "time": 12,
         "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
         {
-            "name": "12 Air Squats",
+            "name": “1 minute Jumping Jack“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “1 minute Walking in Place“,
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “1 minute Jumping Jack“,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “1 minute Walking in Place“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Cool Down Stretch“,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
     }
@@ -1796,94 +583,40 @@ const workouts = [
 
 {
     "locations": ["home","work"],
-    "duration": 15,
+    "duration": 60,
     "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
+        "time": 15,
+        "exercises": [
         {
-            "name": "12 Air Squats",
+            "name": “1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “15 Burpees”,
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “15 Burpees”,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Stretching”,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
     },
     "workout": {
-        "time": 10,
+        "time": 30,
         "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
-        {
-            "name": "12 Air Squats",
-            "link": ""
-        },
         {
-            "name": "9 Push-Ups",
+            "name": “20 Mountain Climbers (per leg)",
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “15 Dips“,
             "link": ""
         },
         {
@@ -1894,86 +627,42 @@ const workouts = [
             "name": "9 Push-Ups",
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “7 Sit-Ups“,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “5 Squat Jumps“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “3 Burpees“,
             "link": ""
         },
-        ]
     }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
+    “cooldown”: {
+        "time": 15,
         "exercises": [ 
-        {
-            "name": "15 Mountain Climbers (with each leg)",
-            "link": ""
-        },
         {
-            "name": "12 Air Squats",
+            "name": “1 minute Jumping Jack“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
+            "name": “1 minute Walking in Place“,
             "link": ""
         },
-        ]
-    }
-},
-
-{
-    "locations": ["home","work"],
-    "duration": 15,
-    "warmup":{
-        "time": 5,
-        "exercises": ["warmup"]
-    },
-    "workout": {
-        "time": 10,
-        "exercises": [ 
         {
-            "name": "15 Mountain Climbers (with each leg)",
+            "name": “1 minute Jumping Jack“,
             "link": ""
         },
         {
-            "name": "12 Air Squats",
+            "name": “1 minute Walking in Place“,
             "link": ""
         },
         {
-            "name": "9 Push-Ups",
-            "link": ""
+            "name": “Cool Down Stretch“,
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
     }
 },
-
-];
