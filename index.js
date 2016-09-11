@@ -92,7 +92,6 @@ function printExercise (exercise){
 }
 
 const workouts = [
-
 {
     "locations": "home",
     "duration": 5,
@@ -100,7 +99,7 @@ const workouts = [
         "time": 2,
         "exercises": [
         {
-            "name": "1 minute Jumping Jack”,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
@@ -113,15 +112,15 @@ const workouts = [
         "time": 3,
         "exercises": [ 
         {
-            "name": "5 Squats”,
+            "name": "5 Squats",
             "link": ""
         },
         {
-            "name": "5 Push-Ups”,
+            "name": "5 Push-Ups",
             "link": ""
         },
         {
-            "name": "5 Sit-Ups”,
+            "name": "5 Sit-Ups",
             "link": ""
         },
         ]
@@ -135,7 +134,7 @@ const workouts = [
         "time": 3,
         "exercises": [ 
         {
-            "name": "1 minute Jumping Jack”,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
@@ -148,7 +147,7 @@ const workouts = [
         "time": 7,
         "exercises": [ 
         {
-            "name": "7 Squats”,
+            "name": "7 Squats",
             "link": ""
         },
         {
@@ -170,7 +169,7 @@ const workouts = [
         "time": 5,
         "exercises": [ 
         {
-            "name": "2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack",
             "link": ""
         },
         {
@@ -209,11 +208,11 @@ const workouts = [
         "time": 7,
         "exercises": [
         {
-            "name": "2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack",
             "link": ""
         },
         {
-            "name": "5 minutes Stretching”,
+            "name": "5 minutes Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
@@ -248,15 +247,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -295,15 +294,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -346,15 +345,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -401,11 +400,11 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
@@ -456,15 +455,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -501,8 +500,8 @@ const workouts = [
             "link": ""
         },
         ]
-    }
-    "cooldown”: {
+    },
+    "cooldown": {
         "time": 5,
         "exercises": [ 
         {
@@ -524,15 +523,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -568,8 +567,9 @@ const workouts = [
             "name": "3 Burpees",
             "link": ""
         },
-    }
-    "cooldown”: {
+        ]
+    },
+    "cooldown": {
         "time": 10,
         "exercises": [ 
         {
@@ -595,22 +595,23 @@ const workouts = [
         "time": 13,
         "exercises": [
         {
-            "name": "1 minute Jumping Jack”,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
-            "link": ""
-        },
-            "name": "1 minute Jumping Jack”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -646,34 +647,34 @@ const workouts = [
             "name": "3 Burpees",
             "link": ""
         },
-    }
-    "cooldown”: {
-        "time": 12,
-        "exercises": [ 
-        {
-            "name": "1 minute Jumping Jack",
-            "link": ""
-        },
-        {
-            "name": "1 minute Walking in Place",
-            "link": ""
-        },
-        {
-            "name": "1 minute Jumping Jack",
-            "link": ""
-        },
-        {
-            "name": "1 minute Walking in Place",
-            "link": ""
-        },
-        {
-            "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
-        },
-        ]
-    }
+        ],
+        "cooldown": {
+            "time": 12,
+            "exercises": [ 
+            {
+                "name": "1 minute Jumping Jack",
+                "link": ""
+            },
+            {
+                "name": "1 minute Walking in Place",
+                "link": ""
+            },
+            {
+                "name": "1 minute Jumping Jack",
+                "link": ""
+            },
+            {
+                "name": "1 minute Walking in Place",
+                "link": ""
+            },
+            {
+                "name": "Cool Down Stretch",
+                "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            },
+            ]
+        }
+    },
 },
-
 {
     "locations": "home",
     "duration": 60,
@@ -681,22 +682,23 @@ const workouts = [
         "time": 15,
         "exercises": [
         {
-            "name": "1 minute Jumping Jack”,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
-            "link": ""
-        },
-            "name": "1 minute Jumping Jack”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -731,9 +733,9 @@ const workouts = [
         {
             "name": "3 Burpees",
             "link": ""
-        },
-    }
-    "cooldown”: {
+        },]
+    },
+    "cooldown": {
         "time": 15,
         "exercises": [ 
         {
@@ -768,7 +770,7 @@ const workouts = [
         "time": 2,
         "exercises": [
         {
-            "name": "1 minute Running”,
+            "name": "1 minute Running",
             "link": ""
         },
         {
@@ -781,15 +783,15 @@ const workouts = [
         "time": 3,
         "exercises": [ 
         {
-            "name": "5 Squats”,
+            "name": "5 Squats",
             "link": ""
         },
         {
-            "name": "5 Push-Ups”,
+            "name": "5 Push-Ups",
             "link": ""
         },
         {
-            "name": "5 Sit-Ups”,
+            "name": "5 Sit-Ups",
             "link": ""
         },
         ]
@@ -803,7 +805,7 @@ const workouts = [
         "time": 3,
         "exercises": [ 
         {
-            "name": "1 minute Running”,
+            "name": "1 minute Running",
             "link": ""
         },
         {
@@ -816,7 +818,7 @@ const workouts = [
         "time": 7,
         "exercises": [ 
         {
-            "name": "7 Squats”,
+            "name": "7 Squats",
             "link": ""
         },
         {
@@ -838,7 +840,7 @@ const workouts = [
         "time": 5,
         "exercises": [ 
         {
-            "name": "2 minutes Running”,
+            "name": "2 minutes Running",
             "link": ""
         },
         {
@@ -877,11 +879,11 @@ const workouts = [
         "time": 7,
         "exercises": [
         {
-            "name": "2 minutes Running”,
+            "name": "2 minutes Running",
             "link": ""
         },
         {
-            "name": "5 minutes Stretching”,
+            "name": "5 minutes Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
@@ -916,15 +918,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Running”,
+            "name": "2 minutes Running",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -963,15 +965,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Running”,
+            "name": "2 minutes Running",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1014,15 +1016,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Running”,
+            "name": "2 minutes Running",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1069,15 +1071,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Running”,
+            "name": "2 minutes Running",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1124,15 +1126,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Running”,
+            "name": "2 minutes Running",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1169,8 +1171,8 @@ const workouts = [
             "link": ""
         },
         ]
-    }
-    "cooldown”: {
+    },
+    "cooldown": {
         "time": 5,
         "exercises": [ 
         {
@@ -1192,15 +1194,15 @@ const workouts = [
         "time": 10,
         "exercises": [
         {
-            "name": "2 minutes Running”,
+            "name": "2 minutes Running",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1235,9 +1237,9 @@ const workouts = [
         {
             "name": "3 Burpees",
             "link": ""
-        },
-    }
-    "cooldown”: {
+        },]
+    },
+    "cooldown": {
         "time": 10,
         "exercises": [ 
         {
@@ -1263,22 +1265,23 @@ const workouts = [
         "time": 13,
         "exercises": [
         {
-            "name": "1 minute Running”,
+            "name": "1 minute Running",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
-            "link": ""
-        },
-            "name": "1 minute Running”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "1 minute Running",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1313,9 +1316,9 @@ const workouts = [
         {
             "name": "3 Burpees",
             "link": ""
-        },
-    }
-    "cooldown”: {
+        },]
+    },
+    "cooldown": {
         "time": 12,
         "exercises": [ 
         {
@@ -1349,22 +1352,22 @@ const workouts = [
         "time": 15,
         "exercises": [
         {
-            "name": "1 minute Running”,
+            "name": "1 minute Running",
             "link": ""
         },
         {
-            "name": "15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
-        },
-            "name": "1 minute Running”,
-            "link": ""
-        },
-        {
-            "name": "15 Burpees”,
+        },{
+            "name": "1 minute Running",
             "link": ""
         },
         {
-            "name": "Stretching”,
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1399,9 +1402,9 @@ const workouts = [
         {
             "name": "3 Burpees",
             "link": ""
-        },
-    }
-    "cooldown”: {
+        },]
+    },
+    "cooldown": {
         "time": 15,
         "exercises": [ 
         {
@@ -1427,5 +1430,4 @@ const workouts = [
         ]
     }
 },
-
 ];
