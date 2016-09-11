@@ -74,7 +74,7 @@ function generateWorkout(duration, location) {
 }
 
 function isInLocation(workout){
-    return workout.locations.includes(thislocation);
+    return thislocation.includes(workout.locations);
 }
 
 function isInDuration(workout){
