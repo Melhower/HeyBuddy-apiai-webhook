@@ -74,7 +74,7 @@ function generateWorkout(duration, location) {
 }
 
 function isInLocation(workout){
-    return workout.locations == thislocation;
+    return workout.locations.includes(thislocation);
 }
 
 function isInDuration(workout){
@@ -83,8 +83,8 @@ function isInDuration(workout){
 
 function printWorkout(workout){
     return printWorkoutCategory(workout.warmup) + 
-    "\n" + workout.workout.time + " mins: \n"+ workout.workout.exercises.map(printExercise).join("\n")
-    + printWorkoutCategory(workout.cooldown);
+    printWorkoutCategory(workout.workout) + 
+    printWorkoutCategory(workout.cooldown);
 }
 
 function printWorkoutCategory(category){
