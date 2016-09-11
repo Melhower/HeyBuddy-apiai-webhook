@@ -83,7 +83,7 @@ function generateWorkout(duration, location) {
     thisduration = duration;
     thislocation = location;
 
-    return workouts2.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
+    return workouts.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
 }
 
 function isInLocation(workout){
@@ -130,7 +130,7 @@ const details = {
     },
 };
 
-const workouts2 = [
+const workouts = [
 {
     "locations": "home",
     "duration": 5,
