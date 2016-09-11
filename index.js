@@ -1,5 +1,3 @@
-//import workouts from "./workouts.json";
-
 'use strict';
 
 const express = require('express');
@@ -95,7 +93,7 @@ function isInDuration(workout){
 }
 
 function printWorkout(workout){
-    return //printDetails(workout.locations) +
+    return 
     printWorkoutCategory(workout.warmup) + 
     printWorkoutCategory(workout.workout) + 
     printWorkoutCategory(workout.cooldown);
