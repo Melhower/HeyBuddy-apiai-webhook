@@ -66,43 +66,40 @@ function parsDuration(duration){
     console.log("duration: "+JSON.stringify(duration));
     if (duration == "") { return 30}
         else
-    return duration.amount <= 60? duration.amount : 60;
-}
-function parsLocation(location){
-    console.log("location: "+JSON.stringify(location));
-
-    if (location == "" || location.includes("work")) {
-        return "home";
+            return duration.amount <= 60? duration.amount : 60;
     }
-    else return location;
-}
+    function parsLocation(location){
+        console.log("location: "+JSON.stringify(location));
+
+        if (location == "" || location.includes("work")) {
+            return "home";
+        }
+        else return location;
+    }
 
 
-var thisduration = 30,thislocation = "home";
-function generateWorkout(duration, location) {
-    thisduration = duration;
-    thislocation = location;
+    var thisduration = 30,thislocation = "home";
+    function generateWorkout(duration, location) {
+        thisduration = duration;
+        thislocation = location;
 
-    return workouts.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
-}
+        return workouts.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
+    }
 
-function isInLocation(workout){
-    return workout.locations.includes(thislocation);
-}
+    function isInLocation(workout){
+        return workout.locations.includes(thislocation);
+    }
 
-function isInDuration(workout){
-    return thisduration - workout.duration >= 0 && thisduration - workout.duration < 5;
-}
+    function isInDuration(workout){
+        return thisduration - workout.duration >= 0 && thisduration - workout.duration < 5;
+    }
 
 
-function printWorkout(workout){
-
-    console.log("workout: "+JSON.stringify(workout));
-
-    return printDetails(workout.locations)
-    // + printWorkoutCategory(workout.warmup)
-    // + printWorkoutCategory(workout.workout) 
-    // + printWorkoutCategory(workout.cooldown);
+    function printWorkout(workout){
+        return printDetails(workout.locations)
+     + printWorkoutCategory(workout.warmup)
+     + printWorkoutCategory(workout.workout) 
+     + printWorkoutCategory(workout.cooldown);
 }
 
 function printWorkoutCategory(category){
@@ -116,17 +113,17 @@ function printExercise (exercise){
 }
 
 function printDetails(location){
-    console.log("details: "+JSON.stringify(details[location]));
-    return details[location].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
-}
+    function replaceDips(match){
+      return details[location]["@dips"];
+  }
 
-function replaceDips(match){
-  return details[location]["@dips"];
-}
-
-function replaceFirst(match){
+  function replaceFirst(match){
     return details[location]["@first"];
 }
+
+return details[location].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
+}
+
 
 const details = {
     "home": {
