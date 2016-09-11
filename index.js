@@ -75,7 +75,7 @@ function generateWorkout(duration, location) {
 
 function isInLocation(workout){
     console.log("workout: "+JSON.stringify(workout));
-    return workout.locations.includes(thislocation);
+    return workout.locations.indexof(thislocation) >=0;
 }
 
 function isInDuration(workout){
@@ -90,7 +90,7 @@ function printWorkout(workout){
 const workouts = [
 
 {
-    locations: ["home","work"],
+    "locations": ["home","work"],
     "duration": 15,
     "warmup":{
         "time": 5,
