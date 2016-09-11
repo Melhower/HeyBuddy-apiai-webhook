@@ -62,8 +62,8 @@ restService.listen((process.env.PORT || 5000), function () {
 
 var thisduration = 0,thislocation = "";
 function generateWorkout(duration, location) {
-    console.log("duration: "+duration.toString);
-    console.log("location: "+location.toString);
+    console.log("duration: "+duration.amount +" "+duration.unit);
+    console.log("location: "+location);
 
     thisduration = duration && duration.amount <= 60? duration.amount : 60;
     thislocation = location;
