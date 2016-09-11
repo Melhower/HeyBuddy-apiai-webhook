@@ -78,7 +78,7 @@ function parsLocation(location){
 }
 
 
-var thisduration = 0,thislocation = "";
+var thisduration = 30,thislocation = "home";
 function generateWorkout(duration, location) {
     thisduration = duration;
     thislocation = location;
@@ -96,10 +96,11 @@ function isInDuration(workout){
 
 
 function printWorkout(workout){
-    return // printDetails(workout.locations)
-    + printWorkoutCategory(workout.warmup)
-    + printWorkoutCategory(workout.workout) 
-    + printWorkoutCategory(workout.cooldown);
+    return "test";
+    // printDetails(workout.locations)
+    // + printWorkoutCategory(workout.warmup)
+    // + printWorkoutCategory(workout.workout) 
+    // + printWorkoutCategory(workout.cooldown);
 }
 
 function printWorkoutCategory(category){
