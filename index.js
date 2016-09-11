@@ -96,6 +96,9 @@ function isInDuration(workout){
 
 
 function printWorkout(workout){
+
+    console.log("workout: "+JSON.stringify(workout));
+
     return printDetails(workout.locations)
     // + printWorkoutCategory(workout.warmup)
     // + printWorkoutCategory(workout.workout) 
