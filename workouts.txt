@@ -1,17 +1,17 @@
 const workouts = [
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 5,
     "warmup":{
         "time": 2,
         "exercises": [
         {
-            "name": “1 minute Jumping Jack”,
+            "name": "1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": “1 minute Stretching“,
+            "name": "1 minute Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731538420440621/?type=3&theater"
         },
         ]
@@ -20,15 +20,15 @@ const workouts = [
         "time": 3,
         "exercises": [ 
         {
-            "name": “5 Squats”,
+            "name": "5 Squats”,
             "link": ""
         },
         {
-            "name": “5 Push-Ups”,
+            "name": "5 Push-Ups”,
             "link": ""
         },
         {
-            "name": “5 Sit-Ups”,
+            "name": "5 Sit-Ups”,
             "link": ""
         },
         ]
@@ -36,17 +36,17 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 10,
     "warmup":{
         "time": 3,
         "exercises": [ 
         {
-            "name": “1 minute Jumping Jack”,
+            "name": "1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": “2 minutes Stretching“,
+            "name": "2 minutes Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731256703802126/?type=3&theater"
         },
         ]
@@ -55,15 +55,15 @@ const workouts = [
         "time": 7,
         "exercises": [ 
         {
-            "name": “7 Squats”,
+            "name": "7 Squats”,
             "link": ""
         },
         {
-            "name": “7 Push-Ups“,
+            "name": "7 Push-Ups",
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         ]
@@ -71,17 +71,17 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 15,
     "warmup":{
         "time": 5,
         "exercises": [ 
         {
-            "name": “2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": “3 minutes Stretching“,
+            "name": "3 minutes Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731544373773359/?type=3&theater"
         },
         ]
@@ -102,7 +102,7 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         ]
@@ -110,17 +110,17 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 20,
     "warmup": {
         "time": 7,
         "exercises": [
         {
-            "name": “2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": “5 minutes Stretching”,
+            "name": "5 minutes Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
@@ -141,7 +141,7 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         ]
@@ -149,21 +149,21 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 25,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -184,11 +184,11 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         ]
@@ -196,21 +196,21 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 30,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -219,11 +219,11 @@ const workouts = [
         "time": 20,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -235,11 +235,11 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         ]
@@ -247,21 +247,21 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 35,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -270,11 +270,11 @@ const workouts = [
         "time": 25,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -286,15 +286,15 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
         ]
@@ -302,21 +302,21 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 40,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -325,11 +325,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -341,15 +341,15 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
         ]
@@ -357,21 +357,21 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 45,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -380,11 +380,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -396,28 +396,28 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
         ]
     }
-    “cooldown”: {
+    "cooldown”: {
         "time": 5,
         "exercises": [ 
         {
-            "name": “1 minute 30 seconds Jumping Jack“,
+            "name": "1 minute 30 seconds Jumping Jack",
             "link": ""
         },
         {
-            "name": “1 minute 30 seconds Walking in Place“,
+            "name": "1 minute 30 seconds Walking in Place",
             "link": ""
         },
         ]
@@ -425,21 +425,21 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 50,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Jumping Jack”,
+            "name": "2 minutes Jumping Jack”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -448,11 +448,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -464,31 +464,31 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
     }
-    “cooldown”: {
+    "cooldown”: {
         "time": 10,
         "exercises": [ 
         {
-            "name": “1 minute 30 seconds Jumping Jack“,
+            "name": "1 minute 30 seconds Jumping Jack",
             "link": ""
         },
         {
-            "name": “1 minute 30 seconds Walking in Place“,
+            "name": "1 minute 30 seconds Walking in Place",
             "link": ""
         },
         {
-            "name": “Cool Down Stretch“,
+            "name": "Cool Down Stretch",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
@@ -496,28 +496,28 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 55,
     "warmup":{
         "time": 13,
         "exercises": [
         {
-            "name": “1 minute Jumping Jack”,
+            "name": "1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
-            "name": “1 minute Jumping Jack”,
-            "link": ""
-        },
-        {
-            "name": “15 Burpees”,
+            "name": "1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "15 Burpees”,
+            "link": ""
+        },
+        {
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -526,11 +526,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -542,39 +542,39 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
     }
-    “cooldown”: {
+    "cooldown”: {
         "time": 12,
         "exercises": [ 
         {
-            "name": “1 minute Jumping Jack“,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
-            "name": “1 minute Walking in Place“,
+            "name": "1 minute Walking in Place",
             "link": ""
         },
         {
-            "name": “1 minute Jumping Jack“,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
-            "name": “1 minute Walking in Place“,
+            "name": "1 minute Walking in Place",
             "link": ""
         },
         {
-            "name": “Cool Down Stretch“,
+            "name": "Cool Down Stretch",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
@@ -582,28 +582,28 @@ const workouts = [
 },
 
 {
-    "locations": ["home","work"],
+    "locations": "home",
     "duration": 60,
     "warmup":{
         "time": 15,
         "exercises": [
         {
-            "name": “1 minute Jumping Jack”,
+            "name": "1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
-            "name": “1 minute Jumping Jack”,
-            "link": ""
-        },
-        {
-            "name": “15 Burpees”,
+            "name": "1 minute Jumping Jack”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "15 Burpees”,
+            "link": ""
+        },
+        {
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -612,11 +612,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -628,39 +628,39 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
     }
-    “cooldown”: {
+    "cooldown”: {
         "time": 15,
         "exercises": [ 
         {
-            "name": “1 minute Jumping Jack“,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
-            "name": “1 minute Walking in Place“,
+            "name": "1 minute Walking in Place",
             "link": ""
         },
         {
-            "name": “1 minute Jumping Jack“,
+            "name": "1 minute Jumping Jack",
             "link": ""
         },
         {
-            "name": “1 minute Walking in Place“,
+            "name": "1 minute Walking in Place",
             "link": ""
         },
         {
-            "name": “Cool Down Stretch“,
+            "name": "Cool Down Stretch",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -669,17 +669,17 @@ const workouts = [
 
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 5,
     "warmup":{
         "time": 2,
         "exercises": [
         {
-            "name": “1 minute Running”,
+            "name": "1 minute Running”,
             "link": ""
         },
         {
-            "name": “1 minute Stretching“,
+            "name": "1 minute Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731538420440621/?type=3&theater"
         },
         ]
@@ -688,15 +688,15 @@ const workouts = [
         "time": 3,
         "exercises": [ 
         {
-            "name": “5 Squats”,
+            "name": "5 Squats”,
             "link": ""
         },
         {
-            "name": “5 Push-Ups”,
+            "name": "5 Push-Ups”,
             "link": ""
         },
         {
-            "name": “5 Sit-Ups”,
+            "name": "5 Sit-Ups”,
             "link": ""
         },
         ]
@@ -704,17 +704,17 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 10,
     "warmup":{
         "time": 3,
         "exercises": [ 
         {
-            "name": “1 minute Running”,
+            "name": "1 minute Running”,
             "link": ""
         },
         {
-            "name": “2 minutes Stretching“,
+            "name": "2 minutes Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731256703802126/?type=3&theater"
         },
         ]
@@ -723,15 +723,15 @@ const workouts = [
         "time": 7,
         "exercises": [ 
         {
-            "name": “7 Squats”,
+            "name": "7 Squats”,
             "link": ""
         },
         {
-            "name": “7 Push-Ups“,
+            "name": "7 Push-Ups",
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         ]
@@ -739,17 +739,17 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 15,
     "warmup":{
         "time": 5,
         "exercises": [ 
         {
-            "name": “2 minutes Running”,
+            "name": "2 minutes Running”,
             "link": ""
         },
         {
-            "name": “3 minutes Stretching“,
+            "name": "3 minutes Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731544373773359/?type=3&theater"
         },
         ]
@@ -770,7 +770,7 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         ]
@@ -778,17 +778,17 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 20,
     "warmup": {
         "time": 7,
         "exercises": [
         {
-            "name": “2 minutes Running”,
+            "name": "2 minutes Running”,
             "link": ""
         },
         {
-            "name": “5 minutes Stretching”,
+            "name": "5 minutes Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
@@ -809,7 +809,7 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         ]
@@ -817,21 +817,21 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 25,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Running”,
+            "name": "2 minutes Running”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -852,11 +852,11 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         ]
@@ -864,21 +864,21 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 30,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Running”,
+            "name": "2 minutes Running”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -887,11 +887,11 @@ const workouts = [
         "time": 20,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -903,11 +903,11 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         ]
@@ -915,21 +915,21 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 35,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Running”,
+            "name": "2 minutes Running”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -938,11 +938,11 @@ const workouts = [
         "time": 25,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -954,15 +954,15 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
         ]
@@ -970,21 +970,21 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 40,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Running”,
+            "name": "2 minutes Running”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -993,11 +993,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -1009,15 +1009,15 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
         ]
@@ -1025,21 +1025,21 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 45,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Running”,
+            "name": "2 minutes Running”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1048,11 +1048,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -1064,28 +1064,28 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
         ]
     }
-    “cooldown”: {
+    "cooldown”: {
         "time": 5,
         "exercises": [ 
         {
-            "name": “1 minute 30 seconds Running“,
+            "name": "1 minute 30 seconds Running",
             "link": ""
         },
         {
-            "name": “1 minute 30 seconds Walking“,
+            "name": "1 minute 30 seconds Walking",
             "link": ""
         },
         ]
@@ -1093,21 +1093,21 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 50,
     "warmup":{
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Running”,
+            "name": "2 minutes Running”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1116,11 +1116,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -1132,31 +1132,31 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
     }
-    “cooldown”: {
+    "cooldown”: {
         "time": 10,
         "exercises": [ 
         {
-            "name": “1 minute 30 seconds Running“,
+            "name": "1 minute 30 seconds Running",
             "link": ""
         },
         {
-            "name": “1 minute 30 seconds Walking“,
+            "name": "1 minute 30 seconds Walking",
             "link": ""
         },
         {
-            "name": “Cool Down Stretch“,
+            "name": "Cool Down Stretch",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
@@ -1164,28 +1164,28 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 55,
     "warmup":{
         "time": 13,
         "exercises": [
         {
-            "name": “1 minute Running”,
+            "name": "1 minute Running”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
-            "name": “1 minute Running”,
-            "link": ""
-        },
-        {
-            "name": “15 Burpees”,
+            "name": "1 minute Running”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "15 Burpees”,
+            "link": ""
+        },
+        {
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1194,11 +1194,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -1210,39 +1210,39 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
     }
-    “cooldown”: {
+    "cooldown”: {
         "time": 12,
         "exercises": [ 
         {
-            "name": “1 minute Running“,
+            "name": "1 minute Running",
             "link": ""
         },
         {
-            "name": “1 minute Walking“,
+            "name": "1 minute Walking",
             "link": ""
         },
         {
-            "name": “1 minute Running“,
+            "name": "1 minute Running",
             "link": ""
         },
         {
-            "name": “1 minute Walking“,
+            "name": "1 minute Walking",
             "link": ""
         },
         {
-            "name": “Cool Down Stretch“,
+            "name": "Cool Down Stretch",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
         },
         ]
@@ -1250,28 +1250,28 @@ const workouts = [
 },
 
 {
-    "locations": ["outdoor"],
+    "locations": "outdoor",
     "duration": 60,
     "warmup":{
         "time": 15,
         "exercises": [
         {
-            "name": “1 minute Running”,
+            "name": "1 minute Running”,
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees”,
             "link": ""
         },
-            "name": “1 minute Running”,
-            "link": ""
-        },
-        {
-            "name": “15 Burpees”,
+            "name": "1 minute Running”,
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "15 Burpees”,
+            "link": ""
+        },
+        {
+            "name": "Stretching”,
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1280,11 +1280,11 @@ const workouts = [
         "time": 30,
         "exercises": [ 
         {
-            "name": “20 Mountain Climbers (per leg)",
+            "name": "20 Mountain Climbers (per leg)",
             "link": ""
         },
         {
-            "name": “15 Dips“,
+            "name": "15 Dips",
             "link": ""
         },
         {
@@ -1296,43 +1296,43 @@ const workouts = [
             "link": ""
         },
         {
-            "name": “7 Sit-Ups“,
+            "name": "7 Sit-Ups",
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         {
-            "name": “3 Burpees“,
+            "name": "3 Burpees",
             "link": ""
         },
     }
-    “cooldown”: {
+    "cooldown”: {
         "time": 15,
         "exercises": [ 
         {
-            "name": “1 minute Running“,
+            "name": "1 minute Running",
             "link": ""
         },
         {
-            "name": “1 minute Walking“,
+            "name": "1 minute Walking",
             "link": ""
         },
         {
-            "name": “1 minute Running“,
+            "name": "1 minute Running",
             "link": ""
         },
         {
-            "name": “1 minute Walking“,
+            "name": "1 minute Walking",
             "link": ""
         },
         {
-            "name": “Cool Down Stretch“,
+            "name": "Cool Down Stretch",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
     }
 },
 
-
+];
