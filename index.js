@@ -78,7 +78,7 @@ function parsDuration(duration){
     }
 
 
-    var thisduration = 30,thislocation = "home";
+    var thisduration,thislocation;
     function generateWorkout(duration, location) {
         thisduration = duration;
         thislocation = location;
