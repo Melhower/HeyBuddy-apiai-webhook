@@ -96,7 +96,7 @@ function parsDuration(duration){
 
 
     function printWorkout(workout){
-        return printDetails(workout.locations)
+        return printDetails(workout)
      + printWorkoutCategory(workout.warmup)
      + printWorkoutCategory(workout.workout) 
      + printWorkoutCategory(workout.cooldown);
@@ -112,16 +112,16 @@ function printExercise (exercise){
     return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
 }
 
-function printDetails(location){
+function printDetails(workout){
     function replaceDips(match){
-      return details[location]["@dips"];
+      return details[workout.locations]["@dips"];
   }
 
   function replaceFirst(match){
-    return details[location]["@first"];
+    return details[workout.locations]["@first"];
 }
 
-return details[location].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
+return "\n" + details[workout.locations].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
 }
 
 
