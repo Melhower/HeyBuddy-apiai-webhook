@@ -92,7 +92,7 @@ function isInDuration(workout){
     return thisduration - workout.duration >= 0 && thisduration - workout.duration < 5;
 }
 
-<<<<<<< Updated upstream
+
 function printWorkout(workout){
     return 
     printWorkoutCategory(workout.warmup) +
