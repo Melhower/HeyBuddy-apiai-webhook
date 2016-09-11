@@ -97,31 +97,33 @@ function parsDuration(duration){
 
     function printWorkout(workout){
         return printDetails(workout)
-     + printWorkoutCategory(workout.warmup)
-     + printWorkoutCategory(workout.workout) 
-     + printWorkoutCategory(workout.cooldown);
-}
+        + printWorkoutCategory(workout.warmup)
+        + printWorkoutCategory(workout.workout) 
+        + printWorkoutCategory(workout.cooldown);
+    }
 
-function printWorkoutCategory(category){
-    if (category)
-        return "\n" + category.time + " \n"+ category.exercises.map(printExercise).join("\n");
-    else return "";
-}
+    function printWorkoutCategory(category){
+        if (category)
+            return "\n" + category.time + " \n"+ category.exercises.map(printExercise).join("\n");
+        else return "";
+    }
 
-function printExercise (exercise){
-    return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
-}
+    function printExercise (exercise){
+        return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
+    }
 
-function printDetails(workout){
-    function replaceDips(match){
-      return details[workout.locations]["@dips"];
-  }
+    function printDetails(workout){
+        function replaceDips(match){
+            if (JSON.stringify(workout).includes("Dips"))
+              return details[workout.locations]["@dips"];
+          else return "";
+      }
 
-  function replaceFirst(match){
-    return details[workout.locations]["@first"];
-}
+      function replaceFirst(match){
+        return details[workout.locations]["@first"];
+    }
 
-return "\n" + details[workout.locations].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
+    return "\n" + details[workout.locations].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
 }
 
 
