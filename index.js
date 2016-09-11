@@ -149,7 +149,7 @@ const workouts = [
     "locations": "home",
     "duration": 5,
     "warmup":{
-        "time": 2,
+        "time": "2 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Jumping Jack",
@@ -162,7 +162,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 3,
+        "time": "3 mins AMRAP",
         "exercises": [ 
         {
             "name": "5 Squats",
@@ -184,7 +184,7 @@ const workouts = [
     "locations": "home",
     "duration": 10,
     "warmup":{
-        "time": 3,
+        "time": "3 mins warmup",
         "exercises": [ 
         {
             "name": "1 minute Jumping Jack",
@@ -197,7 +197,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 7,
+        "time": "7 mins AMRAP",
         "exercises": [ 
         {
             "name": "7 Squats",
@@ -219,7 +219,7 @@ const workouts = [
     "locations": "home",
     "duration": 15,
     "warmup":{
-        "time": 5,
+        "time": "5 mins Warmup",
         "exercises": [ 
         {
             "name": "2 minutes Jumping Jack",
@@ -232,7 +232,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 10,
+        "time": "10 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -258,7 +258,7 @@ const workouts = [
     "locations": "home",
     "duration": 20,
     "warmup": {
-        "time": 7,
+        "time": "7 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -271,7 +271,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 13,
+        "time": "13 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -297,7 +297,7 @@ const workouts = [
     "locations": "home",
     "duration": 25,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -314,7 +314,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 15,
+        "time": "15 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -344,7 +344,7 @@ const workouts = [
     "locations": "home",
     "duration": 30,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -361,7 +361,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 20,
+        "time": "20 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -395,7 +395,7 @@ const workouts = [
     "locations": "home",
     "duration": 35,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -412,7 +412,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 25,
+        "time": "25 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -450,7 +450,7 @@ const workouts = [
     "locations": "home",
     "duration": 40,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -467,7 +467,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -505,7 +505,7 @@ const workouts = [
     "locations": "home",
     "duration": 45,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -522,7 +522,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -555,7 +555,7 @@ const workouts = [
         ]
     },
     "cooldown": {
-        "time": 5,
+        "time": "5 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Jumping Jack",
@@ -573,7 +573,7 @@ const workouts = [
     "locations": "home",
     "duration": 50,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Jumping Jack",
@@ -590,7 +590,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -623,7 +623,7 @@ const workouts = [
         ]
     },
     "cooldown": {
-        "time": 10,
+        "time": "10 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Jumping Jack",
@@ -645,7 +645,7 @@ const workouts = [
     "locations": "home",
     "duration": 55,
     "warmup":{
-        "time": 13,
+        "time": "13 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Jumping Jack",
@@ -670,7 +670,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -702,7 +702,7 @@ const workouts = [
         },
         ],
         "cooldown": {
-            "time": 12,
+            "time": "12 mins Cool Down",
             "exercises": [ 
             {
                 "name": "1 minute Jumping Jack",
@@ -732,7 +732,7 @@ const workouts = [
     "locations": "home",
     "duration": 60,
     "warmup":{
-        "time": 15,
+        "time": "15 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Jumping Jack",
@@ -757,7 +757,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -789,7 +789,7 @@ const workouts = [
         },]
     },
     "cooldown": {
-        "time": 15,
+        "time": "15 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Jumping Jack",
@@ -820,7 +820,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 5,
     "warmup":{
-        "time": 2,
+        "time": "2 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Running",
@@ -833,7 +833,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 3,
+        "time": "3 mins AMRAP",
         "exercises": [ 
         {
             "name": "5 Squats",
@@ -855,7 +855,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 10,
     "warmup":{
-        "time": 3,
+        "time": "3 mins Warmup",
         "exercises": [ 
         {
             "name": "1 minute Running",
@@ -868,7 +868,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 7,
+        "time": "7 mins AMRAP",
         "exercises": [ 
         {
             "name": "7 Squats",
@@ -890,7 +890,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 15,
     "warmup":{
-        "time": 5,
+        "time": "5 mins Warmup",
         "exercises": [ 
         {
             "name": "2 minutes Running",
@@ -903,7 +903,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 10,
+        "time": "10 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -929,7 +929,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 20,
     "warmup": {
-        "time": 7,
+        "time": "7 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -942,7 +942,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 13,
+        "time": "13 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -968,7 +968,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 25,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -985,7 +985,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 15,
+        "time": "15 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Mountain Climbers (per leg)",
@@ -1015,7 +1015,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 30,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -1032,7 +1032,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 20,
+        "time": "20 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1066,7 +1066,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 35,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -1083,7 +1083,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 25,
+        "time": "25 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1121,7 +1121,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 40,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -1138,7 +1138,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1176,7 +1176,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 45,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -1193,7 +1193,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1226,7 +1226,7 @@ const workouts = [
         ]
     },
     "cooldown": {
-        "time": 5,
+        "time": "5 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Running",
@@ -1244,7 +1244,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 50,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Running",
@@ -1261,7 +1261,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1293,7 +1293,7 @@ const workouts = [
         },]
     },
     "cooldown": {
-        "time": 10,
+        "time": "10 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Running",
@@ -1315,7 +1315,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 55,
     "warmup":{
-        "time": 13,
+        "time": "13 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Running",
@@ -1340,7 +1340,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1372,7 +1372,7 @@ const workouts = [
         },]
     },
     "cooldown": {
-        "time": 12,
+        "time": "12 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Running",
@@ -1402,7 +1402,7 @@ const workouts = [
     "locations": "outdoor",
     "duration": 60,
     "warmup":{
-        "time": 15,
+        "time": "15 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Running",
@@ -1426,7 +1426,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1458,7 +1458,7 @@ const workouts = [
         },]
     },
     "cooldown": {
-        "time": 15,
+        "time": "15 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Running",
@@ -1488,7 +1488,7 @@ const workouts = [
     "locations": "gym",
     "duration": 5,
     "warmup":{
-        "time": 2,
+        "time": "2 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Rower",
@@ -1501,7 +1501,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 3,
+        "time": "3 mins AMRAP",
         "exercises": [ 
         {
             "name": "5 Bench Presses",
@@ -1523,7 +1523,7 @@ const workouts = [
     "locations": "gym",
     "duration": 10,
     "warmup":{
-        "time": 3,
+        "time": "3 mins Warmup",
         "exercises": [ 
         {
             "name": "1 minute Rower",
@@ -1536,7 +1536,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 7,
+        "time": "7 mins AMRAP",
         "exercises": [ 
         {
             "name": "7 Bench Presses",
@@ -1558,7 +1558,7 @@ const workouts = [
     "locations": "gym",
     "duration": 15,
     "warmup":{
-        "time": 5,
+        "time": "5 mins Warmup",
         "exercises": [ 
         {
             "name": "2 minutes Rower",
@@ -1571,7 +1571,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 10,
+        "time": "10 mins AMRAP",
         "exercises": [ 
         {
             "name": "10 Bench Presses",
@@ -1597,7 +1597,7 @@ const workouts = [
     "locations": "gym",
     "duration": 20,
     "warmup": {
-        "time": 7,
+        "time": "7 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1610,7 +1610,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 13,
+        "time": "13 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Bench Presses",
@@ -1636,7 +1636,7 @@ const workouts = [
     "locations": "gym",
     "duration": 25,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1653,7 +1653,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 15,
+        "time": "15 mins AMRAP",
         "exercises": [ 
         {
             "name": "15 Bench Presses",
@@ -1683,7 +1683,7 @@ const workouts = [
     "locations": "gym",
     "duration": 30,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1700,7 +1700,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 20,
+        "time": "20 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1734,7 +1734,7 @@ const workouts = [
     "locations": "gym",
     "duration": 35,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1751,7 +1751,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 25,
+        "time": "25 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1787,7 +1787,7 @@ const workouts = [
 
 {
     "locations": "gym",
-    "duration": 40,
+    "duration": "40 mins Warmup",
     "warmup":{
         "time": 10,
         "exercises": [
@@ -1806,7 +1806,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1844,7 +1844,7 @@ const workouts = [
     "locations": "gym",
     "duration": 45,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1861,7 +1861,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1894,7 +1894,7 @@ const workouts = [
         ]
     },
     "cooldown": {
-        "time": 5,
+        "time": "5 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Rower",
@@ -1912,7 +1912,7 @@ const workouts = [
     "locations": "gym",
     "duration": 50,
     "warmup":{
-        "time": 10,
+        "time": "10 mins Warmup",
         "exercises": [
         {
             "name": "2 minutes Rower",
@@ -1929,7 +1929,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -1962,7 +1962,7 @@ const workouts = [
         ]
     },
     "cooldown": {
-        "time": 10,
+        "time": "10 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute 30 seconds Rower",
@@ -1984,7 +1984,7 @@ const workouts = [
     "locations": "gym",
     "duration": 55,
     "warmup":{
-        "time": 13,
+        "time": "13 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Rower",
@@ -2009,7 +2009,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -2042,7 +2042,7 @@ const workouts = [
         ]
     },
     "cooldown": {
-        "time": 12,
+        "time": "12 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Rower",
@@ -2072,7 +2072,7 @@ const workouts = [
     "locations": "gym",
     "duration": 60,
     "warmup":{
-        "time": 15,
+        "time": "15 mins Warmup",
         "exercises": [
         {
             "name": "1 minute Rower",
@@ -2097,7 +2097,7 @@ const workouts = [
         ]
     },
     "workout": {
-        "time": 30,
+        "time": "30 mins AMRAP",
         "exercises": [ 
         {
             "name": "20 Mountain Climbers (per leg)",
@@ -2130,7 +2130,7 @@ const workouts = [
         ]
     },
     "cooldown": {
-        "time": 15,
+        "time": "15 mins Cool Down",
         "exercises": [ 
         {
             "name": "1 minute Rower",
@@ -2155,4 +2155,5 @@ const workouts = [
         ]
     }
 },
-];
+]
+;
