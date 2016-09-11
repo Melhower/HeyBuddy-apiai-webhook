@@ -1,3 +1,5 @@
+//import workouts from "./workouts.json";
+
 'use strict';
 
 const express = require('express');
@@ -81,7 +83,7 @@ function generateWorkout(duration, location) {
     thisduration = duration;
     thislocation = location;
 
-    return workouts.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
+    return workouts2.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
 }
 
 function isInLocation(workout){
@@ -93,14 +95,16 @@ function isInDuration(workout){
 }
 
 function printWorkout(workout){
-    return printWorkoutCategory(workout.warmup) + 
+    return 
+    printDetails(workout.locations) +
+    printWorkoutCategory(workout.warmup) + 
     printWorkoutCategory(workout.workout) + 
     printWorkoutCategory(workout.cooldown);
 }
 
 function printWorkoutCategory(category){
     if (category)
-        return "\n" + category.time + " mins: \n"+ category.exercises.map(printExercise).join("\n");
+        return "\n" + category.time + " \n"+ category.exercises.map(printExercise).join("\n");
     else return "";
 }
 
@@ -108,7 +112,25 @@ function printExercise (exercise){
     return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
 }
 
-const workouts = [
+function printDetails(location){
+    return details[location].description.replace("@dips", details[location]["@dips"]).replace("@first", details[location]["@first"]);
+}
+
+const details = {
+    "home": {
+        "description": "All you need is a small spot where you fit in while lying. @dips Just follow the list and ask me if you need to know anything. @first",
+        "@dips": "You'll also need a chair, bench or table.",
+        "@first": "An AMRAP is done as follows: You got a list of some exercises and the number of reps below. After completing all one by one, you've got 1 round done. Complete as many rounds and reps as possible in the time given. Do breaks when needed. "
+    },
+    "outdoor": {
+
+    },
+    "gym": {
+
+    },
+};
+
+const workouts2 = [
 {
     "locations": "home",
     "duration": 5,
