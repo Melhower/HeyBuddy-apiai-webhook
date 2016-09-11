@@ -1436,4 +1436,676 @@ const workouts = [
         ]
     }
 },
+
+{
+    "locations": "gym",
+    "duration": 5,
+    "warmup":{
+        "time": 2,
+        "exercises": [
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "1 minute Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731538420440621/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 3,
+        "exercises": [ 
+        {
+            "name": "5 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "5 Squats",
+            "link": ""
+        },
+        {
+            "name": "5 Leg Raises",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 10,
+    "warmup":{
+        "time": 3,
+        "exercises": [ 
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "2 minutes Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731256703802126/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 7,
+        "exercises": [ 
+        {
+            "name": "7 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Squats",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 15,
+    "warmup":{
+        "time": 5,
+        "exercises": [ 
+        {
+            "name": "2 minutes Rower",
+            "link": ""
+        },
+        {
+            "name": "3 minutes Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731544373773359/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 10,
+        "exercises": [ 
+        {
+            "name": "10 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "10 Squats",
+            "link": ""
+        },
+        {
+            "name": "10 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "10 Leg Raises",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 20,
+    "warmup": {
+        "time": 7,
+        "exercises": [
+        {
+            "name": "2 minutes Rower",
+            "link": ""
+        },
+        {
+            "name": "5 minutes Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 13,
+        "exercises": [ 
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 25,
+    "warmup":{
+        "time": 10,
+        "exercises": [
+        {
+            "name": "2 minutes Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 15,
+        "exercises": [ 
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        {
+            "name": "5 Squat Jumps",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 30,
+    "warmup":{
+        "time": 10,
+        "exercises": [
+        {
+            "name": "2 minutes Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 20,
+        "exercises": [ 
+        {
+            "name": "20 Mountain Climbers (per leg)",
+            "link": ""
+        },
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        {
+            "name": "5 Squat Jumps",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 35,
+    "warmup":{
+        "time": 10,
+        "exercises": [
+        {
+            "name": "2 minutes Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 25,
+        "exercises": [ 
+        {
+            "name": "20 Mountain Climbers (per leg)",
+            "link": ""
+        },
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        {
+            "name": "5 Squat Jumps",
+            "link": ""
+        },
+        {
+            "name": "3 Burpees",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 40,
+    "warmup":{
+        "time": 10,
+        "exercises": [
+        {
+            "name": "2 minutes Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 30,
+        "exercises": [ 
+        {
+            "name": "20 Mountain Climbers (per leg)",
+            "link": ""
+        },
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        {
+            "name": "5 Squat Jumps",
+            "link": ""
+        },
+        {
+            "name": "3 Burpees",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 45,
+    "warmup":{
+        "time": 10,
+        "exercises": [
+        {
+            "name": "2 minutes Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 30,
+        "exercises": [ 
+        {
+            "name": "20 Mountain Climbers (per leg)",
+            "link": ""
+        },
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        {
+            "name": "5 Squat Jumps",
+            "link": ""
+        },
+        {
+            "name": "3 Burpees",
+            "link": ""
+        },
+        ]
+    },
+    "cooldown": {
+        "time": 5,
+        "exercises": [ 
+        {
+            "name": "1 minute 30 seconds Rower",
+            "link": ""
+        },
+        {
+            "name": "1 minute 30 seconds Walking in Place",
+            "link": ""
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 50,
+    "warmup":{
+        "time": 10,
+        "exercises": [
+        {
+            "name": "2 minutes Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 30,
+        "exercises": [ 
+        {
+            "name": "20 Mountain Climbers (per leg)",
+            "link": ""
+        },
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        {
+            "name": "5 Squat Jumps",
+            "link": ""
+        },
+        {
+            "name": "3 Burpees",
+            "link": ""
+        },
+        ]
+    },
+    "cooldown": {
+        "time": 10,
+        "exercises": [ 
+        {
+            "name": "1 minute 30 seconds Rower",
+            "link": ""
+        },
+        {
+            "name": "1 minute 30 seconds Walking in Place",
+            "link": ""
+        },
+        {
+            "name": "Cool Down Stretch",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 55,
+    "warmup":{
+        "time": 13,
+        "exercises": [
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 30,
+        "exercises": [ 
+        {
+            "name": "20 Mountain Climbers (per leg)",
+            "link": ""
+        },
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        {
+            "name": "5 Squat Jumps",
+            "link": ""
+        },
+        {
+            "name": "3 Burpees",
+            "link": ""
+        },
+        ]
+    },
+    "cooldown": {
+        "time": 12,
+        "exercises": [ 
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "1 minute Walking in Place",
+            "link": ""
+        },
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "1 minute Walking in Place",
+            "link": ""
+        },
+        {
+            "name": "Cool Down Stretch",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+        },
+        ]
+    }
+},
+
+{
+    "locations": "gym",
+    "duration": 60,
+    "warmup":{
+        "time": 15,
+        "exercises": [
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "15 Burpees",
+            "link": ""
+        },
+        {
+            "name": "Stretching",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    },
+    "workout": {
+        "time": 30,
+        "exercises": [ 
+        {
+            "name": "20 Mountain Climbers (per leg)",
+            "link": ""
+        },
+        {
+            "name": "15 Bench Presses",
+            "link": ""
+        },
+        {
+            "name": "12 Squats",
+            "link": ""
+        },
+        {
+            "name": "9 Dumbbell Shoulder Presses",
+            "link": ""
+        },
+        {
+            "name": "7 Leg Raises",
+            "link": ""
+        },
+        {
+            "name": "5 Squat Jumps",
+            "link": ""
+        },
+        {
+            "name": "3 Burpees",
+            "link": ""
+        },
+        ]
+    },
+    "cooldown": {
+        "time": 15,
+        "exercises": [ 
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "1 minute Walking in Place",
+            "link": ""
+        },
+        {
+            "name": "1 minute Rower",
+            "link": ""
+        },
+        {
+            "name": "1 minute Walking in Place",
+            "link": ""
+        },
+        {
+            "name": "Cool Down Stretch",
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+        },
+        ]
+    }
+},
 ];

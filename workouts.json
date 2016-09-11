@@ -1337,8 +1337,6 @@
         ]
     }
 },
-]
-
 
 {
     "locations": "gym",
@@ -1503,7 +1501,7 @@
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1542,15 +1540,15 @@
         "time": 10,
         "exercises": [
         {
-            "name": “2 minutes Rower”,
+            "name": "2 minutes Rower",
             "link": ""
         },
         {
-            "name": “15 Burpees”,
+            "name": "15 Burpees",
             "link": ""
         },
         {
-            "name": “Stretching”,
+            "name": "Stretching",
             "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
         },
         ]
@@ -1579,7 +1577,7 @@
             "link": ""
         },
         {
-            "name": “5 Squat Jumps“,
+            "name": "5 Squat Jumps",
             "link": ""
         },
         ]
@@ -1748,7 +1746,7 @@
             "link": ""
         },
         ]
-    }
+    },
     "cooldown": {
         "time": 5,
         "exercises": [ 
@@ -1815,7 +1813,8 @@
             "name": "3 Burpees",
             "link": ""
         },
-    }
+        ]
+    },
     "cooldown": {
         "time": 10,
         "exercises": [ 
@@ -1849,6 +1848,7 @@
             "name": "15 Burpees",
             "link": ""
         },
+        {
             "name": "1 minute Rower",
             "link": ""
         },
@@ -1893,7 +1893,8 @@
             "name": "3 Burpees",
             "link": ""
         },
-    }
+        ]
+    },
     "cooldown": {
         "time": 12,
         "exercises": [ 
@@ -1935,6 +1936,7 @@
             "name": "15 Burpees",
             "link": ""
         },
+        {
             "name": "1 minute Rower",
             "link": ""
         },
@@ -1979,7 +1981,8 @@
             "name": "3 Burpees",
             "link": ""
         },
-    }
+        ]
+    },
     "cooldown": {
         "time": 15,
         "exercises": [ 
@@ -1992,7 +1995,7 @@
             "link": ""
         },
         {
-            "name": “1 minute Rower",
+            "name": "1 minute Rower",
             "link": ""
         },
         {
@@ -2006,3 +2009,4 @@
         ]
     }
 },
+]
