@@ -83,8 +83,12 @@ function isInDuration(workout){
 }
 
 function printWorkout(workout){
-    return "\n " + workout.warmup.time + " mins: "+ workout.warmup.exercises.join("\n") + 
-    "\n" + workout.workout.time + " mins: "+ workout.workout.exercises.join("\n");
+    return "\n " + workout.warmup.time + " mins: \n"+ workout.warmup.exercises.join("\n") + 
+    "\n" + workout.workout.time + " mins: \n"+ workout.workout.exercises.map(printExercises).join("\n");
+}
+
+function printExercise (exercise){
+    return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
 }
 
 const workouts = [
