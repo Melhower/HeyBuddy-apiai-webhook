@@ -28,7 +28,7 @@ restService.post('/hook', function (req, res) {
                 }
 
                 if (requestBody.result.action === "generateWorkout") {  
-                    speech += generateWorkout(requestBody.result.parameters.duration.amount, requestBody.result.parameters.location);
+                    speech += generateWorkout(parsDuration(requestBody.result.parameters.duration), parsLocation(requestBody.result.parameters.location));
                 }
 
                 else if (requestBody.result.action) 
@@ -62,19 +62,30 @@ restService.listen((process.env.PORT || 5000), function () {
 });
 
 
-var thisduration = 0,thislocation = "";
-function generateWorkout(duration, location) {
+function parsDuration(duration){
     console.log("duration: "+JSON.stringify(duration));
+    return duration && duration.amount <= 60? duration.amount : 60;
+}
+function parsLocation(location){
     console.log("location: "+JSON.stringify(location));
 
-    thisduration = duration <= 60? duration : 60;
+    if (location == "" || location.includes("work")) {
+        return "home";
+    }
+    else return location;
+}
+
+
+var thisduration = 0,thislocation = "";
+function generateWorkout(duration, location) {
+    thisduration = duration;
     thislocation = location;
 
     return workouts.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
 }
 
 function isInLocation(workout){
-    return thislocation.includes(workout.locations);
+    return workout.locations.includes(thislocation);
 }
 
 function isInDuration(workout){
