@@ -113,6 +113,7 @@ function printExercise (exercise){
 }
 
 function printDetails(location){
+    console.log("details: "+JSON.stringify(details[location]));
     return details[location].description.replace("@dips", details[location]["@dips"]).replace("@first", details[location]["@first"]);
 }
 
