@@ -96,7 +96,7 @@ function isInDuration(workout){
 
 
 function printWorkout(workout){
-    return "details: " + printDetails(workout.locations) + "\n workout: \n"+
+    return // printDetails(workout.locations)
     + printWorkoutCategory(workout.warmup)
     + printWorkoutCategory(workout.workout) 
     + printWorkoutCategory(workout.cooldown);
