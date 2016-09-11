@@ -96,7 +96,7 @@ function isInDuration(workout){
 
 
 function printWorkout(workout){
-    return "details: " + printDetails(workout.locations)
+    return "details: " + printDetails(workout.locations) + "\n workout: \n"+
     + printWorkoutCategory(workout.warmup)
     + printWorkoutCategory(workout.workout) 
     + printWorkoutCategory(workout.cooldown);
@@ -114,7 +114,15 @@ function printExercise (exercise){
 
 function printDetails(location){
     console.log("details: "+JSON.stringify(details[location]));
-    return details[location].description.replace("@dips", details[location]["@dips"]).replace("@first", details[location]["@first"]);
+    return details[location].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
+}
+
+function replaceDips(match){
+  return details[location]["@dips"];
+}
+
+function replaceFirst(match){
+    return details[location]["@first"];
 }
 
 const details = {
