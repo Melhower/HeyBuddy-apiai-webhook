@@ -96,7 +96,7 @@ function isInDuration(workout){
 function printWorkout(workout){
     return printWorkoutCategory(workout.warmup)
     //+ printWorkoutCategory(workout.workout) 
-    //+ printWorkoutCategory(workout.cooldown);
+    + printWorkoutCategory(workout.cooldown);
 }
 
 function printWorkoutCategory(category){
