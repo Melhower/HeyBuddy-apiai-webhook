@@ -67,13 +67,14 @@ function generateWorkout(duration, location) {
     console.log("duration: "+JSON.stringify(duration));
     console.log("location: "+JSON.stringify(location));
 
-    thisduration = duration && duration.amount <= 60? duration.amount : 60;
+    thisduration = duration <= 60? duration : 60;
     thislocation = location;
 
     return workouts.filter(isInLocation).filter(isInDuration).map(printWorkout).join("\n");
 }
 
 function isInLocation(workout){
+    console.log("workout: "+JSON.stringify(workout));
     return workout.locations.includes(thislocation);
 }
 
