@@ -11,6 +11,8 @@ restService.post('/hook', function (req, res) {
 
     console.log('hook request');
 
+    console.log("request: "+JSON.stringify(req.body));
+
     try {
         var speech = 'empty speech';
 
@@ -25,7 +27,7 @@ restService.post('/hook', function (req, res) {
                     speech += ' ';
                 }
 
-                if (requestBody.result.action === "generateWorkout") {
+                if (requestBody.result.action === "generateWorkout") {  
                     speech += generateWorkout(requestBody.result.parameters.duration.amount, requestBody.result.parameters.location);
                 }
 
@@ -62,8 +64,8 @@ restService.listen((process.env.PORT || 5000), function () {
 
 var thisduration = 0,thislocation = "";
 function generateWorkout(duration, location) {
-    console.log("duration: "+duration.amount +" "+duration.unit);
-    console.log("location: "+location);
+    console.log("duration: "+JSON.stringify(duration));
+    console.log("location: "+JSON.stringify(location));
 
     thisduration = duration && duration.amount <= 60? duration.amount : 60;
     thislocation = location;
