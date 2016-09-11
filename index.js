@@ -139,7 +139,7 @@ const details = {
         "@first": "An AMRAP is done as follows: You got a list of some exercises and the number of reps below. After completing all one by one, you've got 1 round done. Complete as many rounds and reps as possible in the time given. Do breaks when needed. ",
     },
     "gym": {
-        "description": "A Bench Press bench with your chosen weight on the barbell plus some light dumbbells is all you need. Wanna scale it up? Reserve the next Squat rack with your chosen weight on the barbell, and the next dip bar, also for the Leg Raises. Just follow the list and ask me if you need anything. @first",
+        "description": "All you need is a Bench Press bench with your chosen weight on the barbell plus some light dumbbells. Wanna scale it up? Reserve the next Squat rack with your chosen weight on the barbell, and the next dip bar, also for the Leg Raises. Just follow the list and ask me if you need anything. @first",
         "@first": "An AMRAP is done as follows: You got a list of some exercises and the number of reps below. After completing all one by one, you've got 1 round done. Complete as many rounds and reps as possible in the time given. Do breaks when needed.",
     },
 };
