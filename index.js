@@ -90,7 +90,7 @@ function printWorkout(workout){
 const workouts = [
 
 {
-    "locations": ["home","work"],
+    locations: ["home","work"],
     "duration": 15,
     "warmup":{
         "time": 5,
