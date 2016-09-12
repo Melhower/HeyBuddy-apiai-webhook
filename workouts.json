@@ -1,4 +1,4 @@
-"workouts":[
+{"workouts":[
 {
     "locations": "home",
     "duration": 5,
@@ -439,7 +439,7 @@
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater",
         },
         ]
     },
@@ -2010,3 +2010,4 @@
     }
 },
 ]
+}
