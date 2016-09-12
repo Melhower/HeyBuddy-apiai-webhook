@@ -7,6 +7,9 @@ const bodyParser = require('body-parser');
 const restService = express();
 restService.use(bodyParser.json());
 
+
+var thisSessionId;
+
 restService.post('/hook', function (req, res) {
 
     console.log('hook request');
@@ -21,6 +24,10 @@ restService.post('/hook', function (req, res) {
 
             if (requestBody.result) {
                 speech = '';
+
+                if (requestBody.sessionId) {
+                    thisSessionId = requestBody.sessionId;
+                }
 
                 if (requestBody.result.fulfillment) {
                     speech += requestBody.result.fulfillment.speech;
@@ -68,6 +75,7 @@ function parsDuration(duration){
         else
             return duration.amount <= 60? duration.amount : 60;
     }
+
     function parsLocation(location){
         console.log("location: "+JSON.stringify(location));
 
@@ -96,10 +104,10 @@ function parsDuration(duration){
 
 
     function printWorkout(workout){
-        return "<p>"+printDetails(workout)+"</p>"
-        + "<p>"+printWorkoutCategory(workout.warmup)+"</p>"
-        + "<p>"+printWorkoutCategory(workout.workout) +"</p>"
-        + "<p>"+printWorkoutCategory(workout.cooldown)+"</p>";
+        return printDetails(workout)
+        +printWorkoutCategory(workout.warmup)
+        +printWorkoutCategory(workout.workout)
+        +printWorkoutCategory(workout.cooldown);
     }
 
     function printWorkoutCategory(category){
@@ -112,7 +120,8 @@ function parsDuration(duration){
         return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
     }
 
-    function printDetails(workout){
+var sessionIds = {};
+function printDetails(workout){
         function replaceDips(match){
             if (JSON.stringify(workout).includes("Dips"))
               return details[workout.locations]["@dips"];
@@ -120,7 +129,15 @@ function parsDuration(duration){
       }
 
       function replaceFirst(match){
-        return details[workout.locations]["@first"];
+        if (sessionIds && sessionIds.includes(thisSessionId)) {
+            return "";
+        }else{
+            sessionIds.push(thisSessionId);
+
+            console.log("sessionIds: "+JSON.stringify(sessionIds));
+
+            return details[workout.locations]["@first"];
+        }
     }
 
     return "\n" + details[workout.locations].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
