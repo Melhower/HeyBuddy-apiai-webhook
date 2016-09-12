@@ -144,9 +144,13 @@ function printDetails(workout){
 
             return details[workout.locations]["@first"];
         }
+
+        function replacePause(match){
+            return printPause(details[workout.locations]["@pause"]);
+        }
     }
 
-    return "\n" + details[workout.locations].description.replace("@dips", replaceDips).replace("@first", replaceFirst);
+    return "\n" + details[workout.locations].description.replace("@dips", replaceDips).replace("@first", replaceFirst).replace("@pause", replacePause);
 }
 
 function printPause(pause){
