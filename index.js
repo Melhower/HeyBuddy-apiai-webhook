@@ -126,8 +126,8 @@ function parsDuration(duration){
         return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
     }
 
-var sessionIds = [];
-function printDetails(workout){
+    var sessionIds = [];
+    function printDetails(workout){
         function replaceDips(match){
             if (JSON.stringify(workout).includes("Dips"))
               return details[workout.locations]["@dips"];
@@ -144,10 +144,9 @@ function printDetails(workout){
 
             return details[workout.locations]["@first"];
         }
-
-        function replacePause(match){
-            return printPause(details[workout.locations]["@pause"]);
-        }
+    }
+    function replacePause(match){
+        return printPause(details[workout.locations]["@pause"]);
     }
 
     return "\n" + details[workout.locations].description.replace("@dips", replaceDips).replace("@first", replaceFirst).replace("@pause", replacePause);
