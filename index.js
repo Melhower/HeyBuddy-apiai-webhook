@@ -120,7 +120,7 @@ function parsDuration(duration){
         return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
     }
 
-var sessionIds = {};
+var sessionIds = [];
 function printDetails(workout){
         function replaceDips(match){
             if (JSON.stringify(workout).includes("Dips"))
@@ -129,7 +129,7 @@ function printDetails(workout){
       }
 
       function replaceFirst(match){
-        if (JSON.stringify(sessionIds).includes(thisSessionId)) {
+        if (sessionIds.includes(thisSessionId)) {
             return "";
         }else{
             sessionIds.push(thisSessionId);
