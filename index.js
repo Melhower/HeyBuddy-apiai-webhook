@@ -123,7 +123,10 @@ function parsDuration(duration){
     }
 
     function printExercise (exercise){
-        return exercise.name + (exercise.link? printPause(" ") + exercise.link +printPause(" "): ""); 
+        if (exercise.link) {
+            return "\n" + exercise.name + ( printPause(" ") + exercise.link +printPause(" ") );    
+        } else
+            return exercise.name;
     }
 
     var sessionIds = [];
