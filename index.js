@@ -117,13 +117,13 @@ function parsDuration(duration){
 
     function printWorkoutCategory(category){
         if (category)
-            return printPause("\n") + 
+            return printPause(" ") + 
         "\n" + category.time + " \n"+ category.exercises.map(printExercise).join("\n");
         else return "";
     }
 
     function printExercise (exercise){
-        return exercise.name + (exercise.link? printPause("\n") + exercise.link +printPause("\n"): ""); 
+        return exercise.name + (exercise.link? printPause(" ") + exercise.link +printPause(" "): ""); 
     }
 
     var sessionIds = [];
@@ -153,7 +153,7 @@ function parsDuration(duration){
 }
 
 function printPause(pause){
-    let repetition = pause.includes("\n")? 1: 300;
+    let repetition = pause.includes("\n")? 30: 300;
     return pause.repeat(repetition);
 }
 
@@ -163,18 +163,18 @@ const details = {
         "description": "All you need is a small spot where you fit in while lying. @dips @pauseJust follow the list and ask me if you need to know anything. @first",
         "@dips": "You'll also need a chair, bench or table.",
         "@first": "An AMRAP is done as follows: You got a list of some exercises and the number of reps below. After completing all one by one, you've got 1 round done. Complete as many rounds and reps as possible in the time given. Do breaks when needed. ",
-        "@pause": "\n",
+        "@pause": " ",
     },
     "outdoor": {
         "description": "All you need is an spot where you can run and have no problem lying down. @dips @pauseJust follow the list and ask me if you need anything. @first",
         "@dips": "You'll also need a chair, bench or table.",
         "@first": "An AMRAP is done as follows: You got a list of some exercises and the number of reps below. After completing all one by one, you've got 1 round done. Complete as many rounds and reps as possible in the time given. Do breaks when needed. ",
-        "@pause": "\n",
+        "@pause": " ",
     },
     "gym": {
         "description": "All you need is a Bench Press bench with your chosen weight on the barbell plus some light dumbbells. Wanna scale it up? Reserve the next Squat rack with your chosen weight on the barbell, and the next dip bar, also for the Leg Raises. @pauseJust follow the list and ask me if you need anything. @first",
         "@first": "An AMRAP is done as follows: You got a list of some exercises and the number of reps below. After completing all one by one, you've got 1 round done. Complete as many rounds and reps as possible in the time given. Do breaks when needed.",
-        "@pause": "\n",
+        "@pause": " ",
     },
 };
 
