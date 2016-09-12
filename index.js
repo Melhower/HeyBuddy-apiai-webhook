@@ -124,7 +124,7 @@ function parsDuration(duration){
 
     function printExercise (exercise){
         if (exercise.link) {
-            return "\n" + exercise.name + (printPause("\n") exercise.link +printPause("\n") );    
+            return "\n" + exercise.name + (printPause("\n") + exercise.link +printPause("\n") );    
         } else
             return exercise.name;
     }
