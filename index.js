@@ -153,8 +153,8 @@ function parsDuration(duration){
 }
 
 function printPause(pause){
-    let repeatition = pause.includes("\n")? 30: 300;
-    return pause.repeat(repeatition);
+    let repetition = pause.includes("\n")? 1: 300;
+    return pause.repeat(repetition);
 }
 
 
