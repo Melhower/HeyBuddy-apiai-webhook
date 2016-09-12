@@ -96,10 +96,10 @@ function parsDuration(duration){
 
 
     function printWorkout(workout){
-        return printDetails(workout)
-        + printWorkoutCategory(workout.warmup)
-        + printWorkoutCategory(workout.workout) 
-        + printWorkoutCategory(workout.cooldown);
+        return "<p>"+printDetails(workout)+"</p>"
+        + "<p>"+printWorkoutCategory(workout.warmup)+"</p>"
+        + "<p>"+printWorkoutCategory(workout.workout) +"</p>"
+        + "<p>"+printWorkoutCategory(workout.cooldown)+"</p>";
     }
 
     function printWorkoutCategory(category){
