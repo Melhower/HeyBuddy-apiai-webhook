@@ -129,7 +129,7 @@ function printDetails(workout){
       }
 
       function replaceFirst(match){
-        if (sessionIds && sessionIds.includes(thisSessionId)) {
+        if (JSON.stringify(sessionIds).includes(thisSessionId)) {
             return "";
         }else{
             sessionIds.push(thisSessionId);
