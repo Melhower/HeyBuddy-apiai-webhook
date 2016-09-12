@@ -123,7 +123,7 @@ function parsDuration(duration){
     }
 
     function printExercise (exercise){
-        return exercise.name + (exercise.link? "\n" + exercise.link : ""); 
+        return exercise.name + (exercise.link? printPause("\n") + exercise.link +printPause("\n"): ""); 
     }
 
     var sessionIds = [];
@@ -153,7 +153,8 @@ function parsDuration(duration){
 }
 
 function printPause(pause){
-    return pause.repeat(500);
+    let repeatition = pause.includes("\n")? 30: 300;
+    return pause.repeat(repeatition);
 }
 
 
@@ -168,12 +169,12 @@ const details = {
         "description": "All you need is an spot where you can run and have no problem lying down. @dips @pauseJust follow the list and ask me if you need anything. @first",
         "@dips": "You'll also need a chair, bench or table.",
         "@first": "An AMRAP is done as follows: You got a list of some exercises and the number of reps below. After completing all one by one, you've got 1 round done. Complete as many rounds and reps as possible in the time given. Do breaks when needed. ",
-        "@pause": "\n ",
+        "@pause": "\n",
     },
     "gym": {
         "description": "All you need is a Bench Press bench with your chosen weight on the barbell plus some light dumbbells. Wanna scale it up? Reserve the next Squat rack with your chosen weight on the barbell, and the next dip bar, also for the Leg Raises. @pauseJust follow the list and ask me if you need anything. @first",
         "@first": "An AMRAP is done as follows: You got a list of some exercises and the number of reps below. After completing all one by one, you've got 1 round done. Complete as many rounds and reps as possible in the time given. Do breaks when needed.",
-        "@pause": " ",
+        "@pause": "\n",
     },
 };
 
