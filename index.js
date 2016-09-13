@@ -194,7 +194,7 @@ const workouts = [
         },
         {
             "name": "1 minute Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731538420440621/?type=3&theater"
+            "link": "http://bit.ly/2cjLTke"
         },
         ]
     },
@@ -202,7 +202,7 @@ const workouts = [
         "time": "3 mins AMRAP",
         "exercises": [ 
         {
-            "name": "5 Squats",
+            "name": "5 Air Squats",
             "link": ""
         },
         {
@@ -229,7 +229,7 @@ const workouts = [
         },
         {
             "name": "2 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731256703802126/?type=3&theater"
+            "link": "http://bit.ly/2c6DtQS"
         },
         ]
     },
@@ -237,7 +237,7 @@ const workouts = [
         "time": "7 mins AMRAP",
         "exercises": [ 
         {
-            "name": "7 Squats",
+            "name": "7 Air Squats",
             "link": ""
         },
         {
@@ -264,7 +264,7 @@ const workouts = [
         },
         {
             "name": "3 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731544373773359/?type=3&theater"
+            "link": "http://bit.ly/2cA9gKH"
         },
         ]
     },
@@ -303,7 +303,7 @@ const workouts = [
         },
         {
             "name": "5 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            "link": "http://bit.ly/2cSsQi5"
         },
         ]
     },
@@ -346,7 +346,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -393,7 +393,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -444,7 +444,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -499,7 +499,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -554,7 +554,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -622,7 +622,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv",
         },
         ]
     },
@@ -672,7 +672,7 @@ const workouts = [
         },
         {
             "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            "link": "http://bit.ly/2cSsQi5"
         },
         ]
     }
@@ -702,7 +702,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -759,7 +759,7 @@ const workouts = [
             },
             {
                 "name": "Cool Down Stretch",
-                "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+                "link": "http://bit.ly/2cSsQi5"
             },
             ]
         }
@@ -789,7 +789,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -846,7 +846,7 @@ const workouts = [
         },
         {
             "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     }
@@ -865,7 +865,7 @@ const workouts = [
         },
         {
             "name": "1 minute Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731538420440621/?type=3&theater"
+            "link": "http://bit.ly/2cjLTke"
         },
         ]
     },
@@ -873,7 +873,7 @@ const workouts = [
         "time": "3 mins AMRAP",
         "exercises": [ 
         {
-            "name": "5 Squats",
+            "name": "5 Air Squats",
             "link": ""
         },
         {
@@ -900,7 +900,7 @@ const workouts = [
         },
         {
             "name": "2 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731256703802126/?type=3&theater"
+            "link": "http://bit.ly/2c6DtQS"
         },
         ]
     },
@@ -908,7 +908,7 @@ const workouts = [
         "time": "7 mins AMRAP",
         "exercises": [ 
         {
-            "name": "7 Squats",
+            "name": "7 Air Squats",
             "link": ""
         },
         {
@@ -935,7 +935,7 @@ const workouts = [
         },
         {
             "name": "3 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731544373773359/?type=3&theater"
+            "link": "http://bit.ly/2cA9gKH"
         },
         ]
     },
@@ -974,7 +974,7 @@ const workouts = [
         },
         {
             "name": "5 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            "link": "http://bit.ly/2cSsQi5"
         },
         ]
     },
@@ -1017,7 +1017,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1064,7 +1064,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1115,7 +1115,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1170,7 +1170,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1225,7 +1225,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1293,7 +1293,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1342,7 +1342,7 @@ const workouts = [
         },
         {
             "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            "link": "http://bit.ly/2cSsQi5"
         },
         ]
     }
@@ -1372,7 +1372,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1429,7 +1429,7 @@ const workouts = [
         },
         {
             "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            "link": "http://bit.ly/2cSsQi5"
         },
         ]
     }
@@ -1458,7 +1458,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1515,7 +1515,7 @@ const workouts = [
         },
         {
             "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     }
@@ -1533,7 +1533,7 @@ const workouts = [
         },
         {
             "name": "1 minute Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731538420440621/?type=3&theater"
+            "link": "http://bit.ly/2cjLTke"
         },
         ]
     },
@@ -1568,7 +1568,7 @@ const workouts = [
         },
         {
             "name": "2 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731256703802126/?type=3&theater"
+            "link": "http://bit.ly/2c6DtQS"
         },
         ]
     },
@@ -1603,7 +1603,7 @@ const workouts = [
         },
         {
             "name": "3 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731544373773359/?type=3&theater"
+            "link": "http://bit.ly/2cA9gKH"
         },
         ]
     },
@@ -1642,7 +1642,7 @@ const workouts = [
         },
         {
             "name": "5 minutes Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            "link": "http://bit.ly/2cSsQi5"
         },
         ]
     },
@@ -1685,7 +1685,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1732,7 +1732,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1783,7 +1783,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1838,7 +1838,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1893,7 +1893,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -1961,7 +1961,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -2011,7 +2011,7 @@ const workouts = [
         },
         {
             "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            "link": "http://bit.ly/2cSsQi5"
         },
         ]
     }
@@ -2041,7 +2041,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -2099,7 +2099,7 @@ const workouts = [
         },
         {
             "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731270500467413/?type=3&theater"
+            "link": "http://bit.ly/2cSsQi5"
         },
         ]
     }
@@ -2129,7 +2129,7 @@ const workouts = [
         },
         {
             "name": "Stretching",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     },
@@ -2187,7 +2187,7 @@ const workouts = [
         },
         {
             "name": "Cool Down Stretch",
-            "link": "https://www.facebook.com/heybuddyemotion/photos/a.1731254153802381.1073741828.1726561480938315/1731508097110320/?type=3&theater"
+            "link": "http://bit.ly/2cA9txv"
         },
         ]
     }
