@@ -37,7 +37,7 @@ restService.post('/hook', function (req, res) {
     }
 
     function isInDuration(workout, duration) {
-        return duration - workout.duration >= 0 && duration - workout.duration < 5;
+        return Math.floor(duration / 5) * 5 == workout.duration;
     }
 
 
