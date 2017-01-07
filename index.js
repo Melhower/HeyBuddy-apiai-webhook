@@ -14,18 +14,20 @@ var thisSessionId;
 restService.post('/hook', function (req, res) {
     function parsDuration(duration){
         console.log("duration: "+JSON.stringify(duration));
-        if (duration == "") { return 30}
-        else
-            return duration.amount <= 60? duration.amount : 60;
+        if (duration == "")  return 30;
+        else return duration.amount <= 60? duration.amount : 60;
     }
 
     function parsLocation(location) {
         console.log("location: "+JSON.stringify(location));
-
-        if (location == "" || location.includes("work")) {
-            return "home";
+        switch (location) {
+            case "home":
+            case "gym":
+            case "outdoor":
+                return location;
+            default:
+                return "home";
         }
-        else return location;
     }
 
     function generateWorkout(duration, location) {
