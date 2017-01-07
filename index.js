@@ -48,8 +48,6 @@ restService.post('/hook', function (req, res) {
 
                 else if (requestBody.result.action) 
                     speech += 'action: ' + requestBody.result.action;
-                
-
             }
         }
 
@@ -71,21 +69,16 @@ restService.post('/hook', function (req, res) {
             }
         });
     }
-});
-
-restService.listen((process.env.PORT || 5000), function () {
-    console.log("Server listening");
-});
 
 
-function parsDuration(duration){
-    console.log("duration: "+JSON.stringify(duration));
-    if (duration == "") { return 30}
+    function parsDuration(duration){
+        console.log("duration: "+JSON.stringify(duration));
+        if (duration == "") { return 30}
         else
             return duration.amount <= 60? duration.amount : 60;
     }
 
-    function parsLocation(location){
+    function parsLocation(location) {
         console.log("location: "+JSON.stringify(location));
 
         if (location == "" || location.includes("work")) {
@@ -94,17 +87,20 @@ function parsDuration(duration){
         else return location;
     }
 
-
     function generateWorkout(duration, location) {
-        return config.filter((workout) => isInLocation(workout, location))
-            .filter((workout) => isInDuration(workout, duration));
+        return config.filter((workout) => isInLocation(workout, location)).filter((workout) => isInDuration(workout, duration));
     }
 
-function isInLocation(workout, location) {
-    return workout.locations.includes(location);
+    function isInLocation(workout, location) {
+        return workout.locations.includes(location);
     }
 
-function isInDuration(workout, duration) {
-    return duration - workout.duration >= 0 && duration - workout.duration < 5;
+    function isInDuration(workout, duration) {
+        return duration - workout.duration >= 0 && duration - workout.duration < 5;
     }
+});
+
+restService.listen((process.env.PORT || 5000), function () {
+    console.log("Server listening");
+});
 
