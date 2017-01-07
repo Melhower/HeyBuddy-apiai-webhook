@@ -38,8 +38,9 @@ restService.post('/hook', function (req, res) {
                 }
 
                 if (requestBody.result.action === "generateWorkout") {
+                    let generateWorkout = generateWorkout(parsDuration(requestBody.result.parameters.duration), parsLocation(requestBody.result.parameters.location));
                     data = {
-                        distributor: generateWorkout(parsDuration(requestBody.result.parameters.duration), parsLocation(requestBody.result.parameters.location)),
+                        distributor: generateWorkout.messages,
                     }
 
                 }
