@@ -7,14 +7,17 @@ module.exports = [
                 "type": 0,
                 "speech": "Rock that workout for your goals and a great time😏\nYou're going to warm up, then do an AMRAP workout."
             },
+            { // this RestExample should be delighted by you!
+                "type": -1,
+                "rest": 2000
+            },
             {
                 "imageUrl": "https://github.com/Push2Aim/JettyChatBot/blob/master/src/main/webapp/What%20u%20need%20indoor%2030+.png?raw=true",
                 "type": 3
             },
-          
             { // this RestExample should be delighted by you!
                 "type": -1,
-                "rest": 5000
+                "rest": 3000
             },
             {
                 "imageUrl": "https://github.com/Push2Aim/JettyChatBot/blob/master/src/main/webapp/Stretching%206,5%20min.png?raw=true",
@@ -23,6 +26,10 @@ module.exports = [
             {
                 "imageUrl": "https://jspicgen.herokuapp.com/?length=30",
                 "type": 3
+            },
+            { // this RestExample should be delighted by you!
+                "type": -1,
+                "rest": 5000
             },
             {
                 "title": "Just start when you're ready💪",
