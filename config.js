@@ -3,13 +3,13 @@ module.exports = [
         locations: "home",
         duration: 30,
         "messages": [
-            { // this RestExcample should be delited by you!
-                "type": -1,
-                "rest": 1000
-            },
             {
                 "type": 0,
                 "speech": "Here's to your fitness:"
+            },
+            { // this RestExcample should be delited by you!
+                "type": -1,
+                "rest": 30000
             },
             {
                 "imageUrl": "https://github.com/Push2Aim/JettyChatBot/blob/master/src/main/webapp/What%20u%20need%20Gym%2015+.png?raw=true",
