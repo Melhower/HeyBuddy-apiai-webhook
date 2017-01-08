@@ -15,10 +15,6 @@ module.exports = [
                 "imageUrl": "https://github.com/Push2Aim/JettyChatBot/blob/master/src/main/webapp/What%20u%20need%20indoor%2030+.png?raw=true",
                 "type": 3
             },
-            { // this RestExample should be delighted by you!
-                "type": -1,
-                "rest": 3000
-            },
             {
                 "imageUrl": "https://github.com/Push2Aim/JettyChatBot/blob/master/src/main/webapp/Stretching%206,5%20min.png?raw=true",
                 "type": 3
