@@ -14,15 +14,11 @@ module.exports = [
           
             { // this RestExample should be delighted by you!
                 "type": -1,
-                "rest": 7000
+                "rest": 5000
             },
             {
                 "imageUrl": "https://github.com/Push2Aim/JettyChatBot/blob/master/src/main/webapp/Stretching%206,5%20min.png?raw=true",
                 "type": 3
-            },
-            {
-                "type": -1,
-                "rest": 7000
             },
             {
                 "imageUrl": "https://jspicgen.herokuapp.com/?length=30",
@@ -31,7 +27,7 @@ module.exports = [
             {
                 "title": "Just start when you're ready💪",
                 "replies": [
-                    "AMRAP???",
+                    "AMRAP?🤔",
                     "gym🏋",
                     "outdoor🏃"
                 ],
