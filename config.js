@@ -3,6 +3,10 @@ module.exports = [
         locations: "home",
         duration: 30,
         "messages": [
+            { // this RestExcample should be delited by you!
+                "type": -1,
+                "rest": 1000
+            },
             {
                 "type": 0,
                 "speech": "Here's to your fitness:"
