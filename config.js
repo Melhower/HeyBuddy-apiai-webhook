@@ -20,7 +20,7 @@ module.exports = [
                 "rest": 1000
             },
             {
-                "imageUrl": "https://github.com/Push2Aim/JettyChatBot/blob/master/src/main/webapp/Stretching%206,5%20min.png?raw=true",
+                "imageUrl": "https://github.com/Push2Aim/JettyChatBot/blob/master/src/main/webapp/warmup%2030%20min%20workout.png?raw=true",
                 "type": 3
             },
             {
