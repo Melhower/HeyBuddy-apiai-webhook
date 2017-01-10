@@ -29,7 +29,7 @@ module.exports = [
             },
             { // this RestExample should be delighted by you!
                 "type": -1,
-                "rest": 5000
+                "rest": 4000
             },
             {
                 "title": "Just start when you're ready💪",
