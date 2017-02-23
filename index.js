@@ -9,8 +9,6 @@ const restService = express();
 restService.use(bodyParser.json());
 
 
-var thisSessionId;
-
 restService.post('/hook', function (req, res) {
     function parsDuration(duration){
         console.log("duration: "+JSON.stringify(duration));
@@ -57,10 +55,6 @@ restService.post('/hook', function (req, res) {
             if (requestBody.result) {
                 speech = '';
                 data = {};
-
-                if (requestBody.sessionId) {
-                    thisSessionId = requestBody.sessionId;
-                }
 
                 if (requestBody.result.fulfillment) {
                     speech += requestBody.result.fulfillment.speech;
