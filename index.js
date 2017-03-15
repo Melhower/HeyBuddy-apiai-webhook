@@ -31,8 +31,9 @@ restService.post('/hook', function (req, res) {
     }
 
     function generateWorkout(duration, location) {
-        console.log("use duration: " + duration,"use location: " + location)
-        return config.filter((workout) => isInLocation(workout, location)).filter((workout) => isInDuration(workout, duration));
+        console.log("use duration: " + duration,"use location: " + location);
+        let out = config.filter((workout) => isInLocation(workout, location)).filter((workout) => isInDuration(workout, duration));
+        return out.length >= 1 ? out[0] : config[0];
     }
 
     function isInLocation(workout, location) {
