@@ -25,6 +25,7 @@ restService.post('/hook', function (req, res) {
             case "gym":
             case "outdoor":
                 return location;
+            case "":
             default:
                 return "home";
         }
