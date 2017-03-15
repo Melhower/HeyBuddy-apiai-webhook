@@ -13,25 +13,25 @@ restService.get('/ping', function (req, res) {
 
 restService.post('/hook', function (req, res) {
     function parsDuration(duration){
-        console.log("duration: "+JSON.stringify(duration));
+        console.log("input duration: "+JSON.stringify(duration));
         if (duration == "")  return 30;
         else return duration.amount <= 60? duration.amount : 60;
     }
 
     function parsLocation(location) {
-        console.log("location: "+JSON.stringify(location));
+        console.log("input location: "+JSON.stringify(location));
         switch (location) {
             case "home":
             case "gym":
             case "outdoor":
                 return location;
-            case "":
             default:
                 return "home";
         }
     }
 
     function generateWorkout(duration, location) {
+        console.log("use duration: " + duration,"use location: " + location)
         return config.filter((workout) => isInLocation(workout, location)).filter((workout) => isInDuration(workout, duration));
     }
 
